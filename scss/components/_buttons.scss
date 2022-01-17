@@ -1,0 +1,104 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.btn-rounded-2 { 
+    
+    position: relative;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+   // border: 0.1rem solid rgb(255, 221, 177);
+   border: rgb(75, 168, 3);
+    //background-color: wheat;
+   
+    color: white;
+    background-image: linear-gradient(to right,  rgba(47, 204, 42, 0.8) 0%,rgba(75, 202, 37, 0.8)40%,rgba(100, 179, 89, 0.8) 100%);
+
+    transition: 0.2s;
+    background-size: 200% auto;
+    &:hover {
+        padding: 0.9rem 1.7rem;
+        background-image: linear-gradient(to right,  rgba(83, 212, 78, 0.8) 0%,rgba(75, 202, 37, 0.8)40%,rgba(51, 175, 34, 0.8) 100%);
+        transition: 0.2s;
+        background-size: 100% auto;
+        
+    }
+    @include media-breakpoint-down(sm) {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0.5rem 1rem  0.5rem 1rem;
+    font-weight: 700;
+    border: 0.1rem solid rgba(196, 255, 184, 0.95);
+    background-color: rgba(89, 187, 59, 0.8);
+    font-size: 1.1rem;
+    span {
+        position: absolute;
+        background-color: black;
+        width: 1.8rem;
+        height: 1.8rem;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 60%;
+
+        i {
+            color: $white;
+            font-size: 0.6rem;
+            line-height: 1.8rem;
+        }
+    }
+    &:hover {
+        padding: 0.7rem 1.3rem;
+        background-image: linear-gradient(to right,  rgba(52, 160, 49, 0.8) 0%,rgba(89, 187, 59, 0.8)40%,rgba(153, 238, 142, 0.8) 100%);
+        transition: 0.2s;
+        background-size: 100% auto;
+        
+    }
+    }
+}
+
+.btn-2 {
+
+    padding: 0rem 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: red;
+    text-decoration-color: rgb(255, 255, 255);
+    border: 0.1rem solid white;
+    i {
+        margin-right: 0.1rem;     
+        color: rgba(255, 255, 255, 1);
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
+
+} 
+
+.media-btn {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .media-btn {
+        margin-top: 14rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+.btn-primary {
+    color: white;
+    background-image: linear-gradient(to right,  rgba(47, 204, 42, 0.8) 0%,rgba(75, 202, 37, 0.8)40%,rgba(100, 179, 89, 0.8) 100%);
+    border: rgb(64, 184, 49);
+    transition: 0.2s;
+    background-size: 200% auto;
+}
+

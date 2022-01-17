@@ -1,0 +1,317 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.intro-section {
+    @include gradient-1; 
+    
+    margin: 0 0 0 0;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.intro-box {
+    height: 475px;
+     width: 500px; 
+     //background-color: rgb(227, 249, 255);
+     background-color: rgba(153, 238, 142, 0.8);
+     z-index: 1; 
+     position: absolute;
+     
+     margin-bottom: 70px;  
+     display: flex;
+     justify-content: center;
+    border-radius: 2%;
+
+    div {
+        color: whitesmoke;
+        font-size: 1.3rem;
+        
+    }
+    p {
+        color: whitesmoke;
+        font-family: 'Libre Baskerville', serif;
+        font-style: italic;
+        font-size:1.5rem;
+    }
+}
+
+.intro-box-2 {
+    height: 475px;
+     width: 500px; 
+     border-radius: 2%;
+     background-color: rgba(62, 185, 58, 0.8);
+     position: absolute;
+     margin-left: 17px;
+     margin-bottom: 100px;
+
+    .box-pic {
+        height: 190px;
+        width: 100px;
+        z-index: 3;
+        margin-top: 275px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+}
+
+.intro-box-3 {
+    height: 475px;
+    width: 500px;  
+     //background-color: rgb(227, 249, 255);
+    
+     z-index: 1; 
+    position: relative;
+     margin-right: 80px;
+     margin-bottom: 80px;  
+   
+     
+     .box-pic {
+         width: 500px;
+         height: 450px;
+         margin-left: 20px;
+         
+         border-radius: 70%;
+        border: 3px solid rgba(52, 160, 49, 0.8);
+        
+     }
+     p {
+        font-family: 'Libre Baskerville', serif;
+       
+        
+     }
+    
+}
+
+.intro-box-4 {
+    height: 475px;
+    width: 500px;  
+     //background-color: rgb(227, 249, 255);
+    
+     z-index: 1; 
+    
+     margin-right: 80px;
+     margin-bottom: 80px;  
+   
+     
+     .box-pic-2 {
+         width: 500px;
+         height: 450px;
+         margin-left: 20px;
+         margin-bottom: 150px;
+         border-radius: 70%;
+        border: 3px solid rgba(27, 82, 26, 0.8);
+        
+     }
+     p {
+        font-family: 'Libre Baskerville', serif;
+       
+        
+     }
+    
+}
+
+.intro-box-cicrle {
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    background-image: linear-gradient(to right,  rgba(52, 160, 49, 0.8) 0%,rgba(89, 187, 59, 0.8)40%,rgba(153, 238, 142, 0.8) 100%);
+    background-size: 200% auto;
+    margin-top: 276px;
+    margin-right: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    border: 3px solid rgba(52, 160, 49, 0.8);
+
+   
+}
+
+
+/*.intro-box {
+    height: 475px;
+     width: 450px; 
+     //background-color: rgb(227, 249, 255);
+    color: whitesmoke;
+    margin-left: 40px;
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    div {
+        color: whitesmoke;
+        font-size: 1.3rem;
+      
+        width: 22rem;
+    }
+    p {
+        color: whitesmoke;
+        font-family: 'Estonia', cursive;
+        
+        font-size:1.3rem;
+    }
+}
+
+.intro-box-2 {
+    height: 475px;
+    width: 1020px;  
+    background-color: rgb(21, 109, 112, 0.6);
+   
+    position: absolute;
+
+     margin-right: 160px;
+     margin-top: 90px;  
+    
+     .logo-pic {
+        width: 120px;
+        z-index: 2;
+        margin-top: 230px;
+        margin-bottom: 13px;
+        margin-right: 20px;
+    }
+}
+*/
+
+
+.intro-padding {
+    padding:  10rem 0 0 0;
+    @include media-breakpoint-down(sm) {
+        padding:  2rem 0 0 0;
+    }
+}
+
+
+
+.bg-filter {
+    backdrop-filter: blur(9px);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.services {
+    background-color: rgba(103, 202, 90, 0.8);
+}
+
+.contact {
+    background-color: rgba(103, 202, 90, 0.8);
+}
+
+.card {
+    background-color: rgba(103, 202, 90, 0.8);
+}
+
+.family-img {
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+}
+
+.text-time {
+    p {
+        color:white;
+        font-size: 1.3rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+.custom-shape-divider-top-1639621164 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1639621164 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1639621164 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.form-control:focus {
+   
+    box-shadow: 0 0 0 0.05rem rgba(29, 29, 29, 0.95);
+  }
+
+  ul li {
+      list-style: none;
+  }
+
+  .links {
+    color:rgba(62, 185, 58);
+    li {
+        padding-bottom: 1.2rem;
+    font-size: 1.3rem;
+    margin-right: 15px;
+    }
+  }
+
+  .links-2 {
+    color:rgb(255, 255, 255);
+    li {
+        padding-bottom: 1.2rem;
+    font-size: 1.3rem;
+    margin-right: 15px;
+    }
+  }
+
+ 
+
+  input::placeholder {
+   
+    padding-left: 2rem;
+  }
+
+  textarea::placeholder {
+   
+    padding-left: 2rem;
+  }
+
+  .custom-shape-divider-bottom-1639887178 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1639887178 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.custom-shape-divider-bottom-1639887178 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.addmargin {
+    margin-top: 5rem;
+    transition: 0.3s;
+}
+
+.removemargin {
+    margin-top: 0rem;
+    transition: 0.3s;
+}
+
+.line1 {
+    stroke:rgb(0, 255, 21);
+    stroke-width:4
+}
+
+.line2 {
+    stroke:rgb(123, 255, 0);
+    stroke-width:2
+}

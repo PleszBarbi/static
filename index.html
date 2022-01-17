@@ -1,0 +1,902 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Estonia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+<script src="./index.js"></script>
+</head>
+  <body>
+<section>
+  <nav class="navbar menu-2 ">
+    <div class="container-fluid px-4 mx-4">
+      <div class="d-flex">
+       <div style="margin-left: 15px;">
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+      </div>
+       </div>
+       <div class="mx-1">
+        <p>1055 Budapest Kossuth Lajos tér 1-3 </p>
+    </div>
+      </div>
+      <div style="margin-right: 20px;" class="d-flex justify-content-end">
+        <div class="mx-2">
+         <div>
+          <i class="fas fa-envelope"></i>
+       </div>
+        </div>
+        <div class="mx-1">
+         <p>kapcsolatterapia@gmail.com</p>
+      </div>
+      <div class="mx-2">
+        <div>
+          <i class="fas fa-mobile-alt"></i>
+      </div>
+       </div>
+       <div class="mx-1">
+        <p>+36708754226</p>
+     </div>
+     <span class="mx-2"> <svg height="25" width="4">
+      <line x1="0" y1="0" x2="0" y2="22" style="stroke:rgb(240, 240, 240);stroke-width:4"/>
+    </svg></span>
+    <div class="mx-2">
+      <div>
+        <i class="fab fa-facebook"></i>
+    </div>
+     </div>
+     <div class="mx-2">
+      <div>
+        <i class="fab fa-twitter"></i>
+    </div>
+     </div>
+     <div class="mx-2">
+      <div>
+        <i class="fab fa-instagram"></i>
+    </div>
+     </div>
+       </div>
+    </div>
+  </nav>
+</section>
+
+<section>
+  <nav id="menu" class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top-sm">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-start mx-3-sm mx-3 logo-nav">
+        <a class="navbar-brand d-flex align-items-center mx-4 " href="#">
+          <img style="width: 60px;" src="pics/logo6.png" alt="logo image">
+          <p style="font-size: 1.5rem;" class="mt-3 mx-3">Therapy</p>
+        </a>
+      </div>
+      <button style="margin-right: 1.3rem;" id="butt" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div  margin-right: 45px  class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="nav navbar-nav nav-visible">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Kezdőlap</a></li>
+          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="bemutatkozas.html">Bemutatkozás</a></li>
+          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#services-short">Szolgáltatások</a></li>
+          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#contact">Árlista</a></li>
+          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#contact">Rendelési idő</a></li>
+          <li class="nav-item"><a href="#contact" style="color:rgb(255, 255, 255, 0.8)" class="nav-link">Kapcsolat</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav gx-3 nav-query">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Kezdőlap</a></li>
+          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link"  href="bemutatkozas.html">Bemutatkozás</a></li>
+          <li  class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#query-services-short">Szolgáltatások</a></li>
+          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)"  class="nav-link"  href="#query-contact2">Árlista</a></li>
+          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#query-contact1">Rendelési idő</a></li>
+          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#query-contact3">Kapcsolat</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    
+  </nav>
+ </section>
+    
+    
+ <section  class="intro">
+  <div  class="container-fluid">
+    <div class="container-fluid  intro-section">
+      <div class="bg-filter ">
+       <div style="height: 32rem;" class="row my-4 d-flex justify-content-center">
+         <div class="col-6 d-flex justify-content-end">
+       
+          <div class="intro-box-3">
+            <div  class="d-flex justify-content-end">
+              <img  src="pics/barbi7.jpg" alt="logo-image" class="box-pic mt-3">
+            </div>
+                               
+          </div>
+          <div class="intro-box-cicrle d-flex justify-content-end">
+            <div class="d-flex align-items-center">
+              <p  class="text-center mt-4">I am Doctor Hannibal Lecter. I have been working as a therapist for 20 years. I also like to eat my <br> patients.</p>
+            </div>
+          </div>
+         </div>
+         <div  class="col-6 mt-5 d-flex align-items-center mt-3 ">
+            <div class="intro-box d-flex align-items-center mt-2">
+              <div  class="px-5">
+                <div>
+                  <h2> Professional Psychotherapy</h2>
+                  <p >Free consultation</p>
+                  <div >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, hic praesentium veritatis, beatae tempore minima dolor temporibus deleniti <br> rerum sunt vel quod ab officiis <br> ex tenetur consequatur unde <br> ipsa incidunt?
+                  </div>
+                  <div id="services-short">
+
+                  </div>
+                  <button  type="button" class="btn-rounded-2 mt-4">
+                    Get in Touch
+                  </button>
+               </div>
+      
+              </div>
+            </div>
+            <div class="intro-box-2 d-flex justify-content-end">
+              <img  src="pics/imageedit_4_7531441559.png" alt="logo image" class="box-pic">
+            </div>
+         </div>
+        
+        </div>
+       
+     </div>
+   </div>
+</div>
+ </section>
+
+ <section id="query-intro"  class="query-intro">
+  <div class="container-fluid">
+    <div class="container-fluid  intro-section">
+      <div class="bg-filter ">
+       <div style="height: 33rem; margin-top: 50px;" class="row">
+         <div class="col-12 d-flex justify-content-center">
+       
+          <div class="intro-box-3">
+            <div class="d-flex justify-content-end">
+              <img src="pics/barbi7.jpg" alt="logo-image" class="box-pic mt-3">
+            </div>
+                               
+          </div>
+          <div class="intro-box-cicrle d-flex justify-content-end">
+            <div class="d-flex align-items-center">
+              <p  class="text-center mt-4">I am Doctor Hannibal Lecter. I have been working as a therapist for 20 years. I also like to eat my <br> patients.</p>
+            </div>
+          </div>
+         </div>
+        
+        </div>
+        <a style="position: absolute; right: 10px; bottom:30px" href="#jump">
+          <i style="color: rgb(112, 209, 104);" class="far fa-arrow-alt-circle-down fa-3x"></i>
+        </a>
+     </div>
+   </div>
+</div>
+ </section>
+
+ <section  class="query-intro">
+  <div style=" padding-left: 0;" class="container">
+      <div id="jump" style="height:34rem;"  class="col-12  d-flex align-items-center mt-2 justify-content-start ">
+        <div style="margin-top: 7px;" class="intro-box d-flex align-items-center">
+          <div id="query-services-short">
+
+          </div>
+          <div class="px-5">
+            <div>
+              <h2 class="text-center"> Professional Psychotherapy</h2>
+              <p class="text-center">Free consultation</p>
+              <div  style="word-break: break-all;">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, hic praesentium veritatis, beatae tempore minima dolor temporibus deleniti rerum sunt vel quod ab officiis ex tenetur consequatur unde ipsa incidunt?
+              </div>
+             <div class="d-flex justify-content-center">
+              <button type="button" class="btn-rounded-2 mt-2">
+                Get in Touch
+              </button>
+             </div>
+            
+           </div>
+  
+          </div>
+        </div>
+     </div>
+ 
+</div>
+ </section>
+
+
+      <section style="background-color: white;" class="p-5 services-short">
+          <div class="container">
+              <div style="height:20rem;" class="row text-center g-4 d-flex justify-content-center align-items-center">
+                  
+                <div class="col-md"> 
+                  <div style="max-height: auto;" class="card text-light">
+                          <div class="card-body text-center">
+                  <div class="h1 ">
+                    <i class="fas fa-hands-helping"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Pszichológiai <br> tanácsadás
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt enim nulla dolorum? Dolorum, ullam?
+                  </p>
+                              <a href="#pszitan2" class="btn btn-primary py-2 px-3">
+                                  Bővebben
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md">
+                      <div class="card text-light mb">
+                          <div class="card-body text-center">
+                              <div  class="h1  ">
+                                <i class="fas fa-child"></i>
+                              
+                              </div>
+                          
+                              <h3 class="card-title mb-3">
+                                  Integratív <br> gyerekterápia
+                              </h3>
+                              <p class="card-text mt-1">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt enim nulla dolorum? Dolorum, ullam?
+                              </p>
+                              <a href="#intgyer" class="btn btn-primary py-2 px-3">
+                                  Bővebben
+                              </a>
+                         
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="card text-light">
+                      <div class="card-body text-center">
+                          <div class="h1">
+                            <i class="fas fa-desktop"></i>
+                          </div >
+                          <h3 class="card-title mb-3">
+                            Csoportos <br> művészetterápia
+                          </h3>
+                          <p  class="card-text mt-1">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt enim nulla dolorum? Dolorum, ullam?
+                          </p>
+                          <a href="#csopmuv2" class="btn btn-primary py-2 px-3">
+                              Bővebben
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+  
+      </section>
+
+      <section  style="background-color: white;" class="px-5  query-services-short">
+        <div class="container">
+            <div style="height:20rem; margin-bottom: 5rem;" class="row text-center g-4 d-flex justify-content-center align-items-center">
+                
+              <div  id="carouselExampleIndicators" class="carousel slide info-carosuel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div  class="col-md">
+                      <div style="max-height: auto;" class="card text-light">
+                        <div class="card-body text-center">
+                          <div class="h1 ">
+                            <i class="fas fa-hands-helping"></i>
+                          </div>
+                          <h3 class="card-title mb-3">
+                            Pszichológiai <br> tanácsadás
+                          </h3>
+                          <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt enim nulla dolorum? Dolorum, ullam?
+                          </p>
+                            <a href="#pszita" class="btn btn-primary py-2 px-3">
+                                Bővebben
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md">
+                      <div class="card text-light mb">
+                        <div class="card-body text-center">
+                            <div  class="h1  ">
+                              <i class="fas fa-child"></i>
+                            
+                            </div>
+                        
+                            <h3 class="card-title mb-3">
+                                Integratív <br> gyerekterápia
+                            </h3>
+                            <p class="card-text mt-1">
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt enim nulla dolorum? Dolorum, ullam?
+                            </p>
+                            <a href="#gyertera" class="btn btn-primary py-2 px-3">
+                                Bővebben
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div  class="col-md">
+                      <div class="card text-light">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                              <i class="fas fa-transgender"></i>
+                            </div >
+                            <h3 class="card-title mb-3">
+                              Csoportos művészetterápia
+                            </h3>
+                            <p  class="card-text mt-1">
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt enim nulla dolorum? Dolorum, ullam?
+                            <a href="#csopmuv" class="btn btn-primary py-2 px-3">
+                                Bővebben
+                            </a>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                 
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+           
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+    </section>
+
+    <section style="position: relative;" class="p-5 services">
+      <div class="container">
+          <div style="height:25rem; margin-top: 100px;" class="row d-flex justify-content-center">
+              <div id="intgyer" class="col-8">
+                <h1 style="color: white;" class="text-start">
+                  Komplex Integratív Gyermekterápia
+                </h1>
+                <div class="d-flex justify-content-start">
+                  <svg height="20" width="150">
+                    <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                    <line x1="0" y1="10" x2="110" y2="10" class="line2" />
+                  </svg>
+                </div>
+                <p style="font-size: 1.3rem; font-style: italic; font-weight: 500;">Free consultation</p>
+                <div style="font-size: 1.3rem; color: white; width: 50rem;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis et repudiandae perferendis enim, dolor odit aliquid quam eum corporis quis nulla eligendi, rerum ipsum minima ullam commodi? Explicabo, eum! Voluptates assumenda magnam eius doloremque ex. Nihil cumque aperiam obcaecati eos, officiis nobis consequuntur eum alias excepturi deserunt doloribus odio eius doloremque tempora et quidem modi animi nisi, saepe, dolore quo aut veniam tenetur odit? Dolor vel deserunt eos atque, placeat similique iusto? Unde, facere. Pariatur sunt voluptatum esse asperiores inventore?                </div>
+              </div>
+              <div class="col-4">
+                <img class="family-img mt-5" src="pics/CFCA10.jpg" alt="">
+              </div>
+          </div>
+      </div>
+      <div class="container">
+        <div style="height:25rem; margin-top: 100px;" class="row d-flex justify-content-center">
+            <div id="pszitan2" class="col-8">
+              <h1 style="color: white;" class="text-start">
+                Pszichológiai tanácsadás
+              </h1>
+              <div class="d-flex justify-content-start">
+                <svg height="20" width="150">
+                  <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                  <line x1="0" y1="10" x2="110" y2="10" class="line2"/>
+                </svg>
+              </div>
+              <p style="font-size: 1.3rem; font-style: italic; font-weight: 500;">Free consultation</p>
+              <div style="font-size: 1.3rem; color: white; width: 50rem;">
+L             orem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quae vitae eaque, molestias sapiente vel cupiditate tempore magnam accusamus quibusdam harum autem officia nostrum dolor ipsum facilis sequi repellat placeat eveniet, accusantium libero in eum molestiae ducimus! Natus molestiae fugiat ab repellendus sunt ea laudantium, vero veritatis facere aspernatur ratione assumenda porro rem sequi dolor consequuntur. Deleniti perferendis quas necessitatibus neque? Ratione, consectetur autem vel iusto blanditiis illum aspernatur ea libero, assumenda nam, odit sint debitis odio velit quae expedita!              </div>
+            </div>
+            <div class="col-4">
+              <img class="family-img mt-5" src="pics/therapy.png.opdownload" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div id="csopmuv2" style="height:25rem; margin-top: 100px;" class="row d-flex justify-content-center">
+          <div class="col-8">
+            <h1 style="color: white;" class="text-start">
+              Csoportos művészetterápia
+            </h1>
+            <div class="d-flex justify-content-start">
+              <svg height="20" width="150">
+                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                <line x1="0" y1="10" x2="110" y2="10" class="line2" />
+              </svg>
+            </div>
+            <p style="font-size: 1.3rem; font-style: italic; font-weight: 500;">Free consultation</p>
+            <div style="font-size: 1.3rem; color: white; width: 50rem;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis et repudiandae perferendis enim, dolor odit aliquid quam eum corporis quis nulla eligendi, rerum ipsum minima ullam commodi? Explicabo, eum! Voluptates assumenda magnam eius doloremque ex. Nihil cumque aperiam obcaecati eos, officiis nobis consequuntur eum alias excepturi deserunt doloribus odio eius doloremque tempora et quidem modi animi nisi, saepe, dolore quo aut veniam tenetur odit? Dolor vel deserunt eos atque, placeat similique iusto? Unde, facere. Pariatur sunt voluptatum esse asperiores inventore?                </div>
+          </div>
+          <div class="col-4">
+            <img class="family-img mt-5" src="pics/art.jpg" alt="">
+          </div>
+      </div>
+  </div>
+      <div class="custom-shape-divider-top-1639621164">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+  </section>
+
+  
+  <section id="gyertera" style="position: relative;" class="p-5 query-services">
+    <div class="container">
+        <div  style="height:35rem; margin-top: 10px;" class="row d-flex justify-content-center">
+            <div class="col-12">
+              <h1 style="color: white;" class="text-center titles">
+                Komplex Integratív Gyermekterápia
+              </h1>
+              <div class="d-flex justify-content-center">
+                <svg height="20" width="150">
+                  <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                  <line x1="20" y1="10" x2="130" y2="10" class="line2" />
+                </svg>
+              </div>
+              <p style="font-size: 1.3rem; font-style: italic; font-weight: 500;" class="text-center">Free consultation</p>
+              <div style="font-size: 1.2rem; color: white;  text-align: justify; word-break: break-all;">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto possimus maxime repellendus delectus voluptatibus animi ullam, doloremque consectetur! Explicabo excepturi, nihil suscipit atque a voluptates rerum voluptate omnis voluptatem sint modi autem? Tempora autem consectetur cumque et molestias ipsa, voluptatum, ipsam quod quisquam unde error dolorem eius ex itaque aliquam?
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div id="pszita" style="height:32rem;" class="row d-flex justify-content-center">
+          <div class="col-12">
+            <h1 style="color: white;" class="text-center titles mt-2">
+              Pszichológiai tanácsadás
+            </h1>
+            <div class="d-flex justify-content-center">
+              <svg height="20" width="150">
+                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                <line x1="20" y1="10" x2="130" y2="10" class="line2" />
+              </svg>
+            </div>
+            <p style="font-size: 1.3rem; font-style: italic; font-weight: 500;" class="text-center">Free consultation</p>
+            <div id="query-contact" style="font-size: 1.2rem; color: white; text-align: justify; word-break: break-all;">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto possimus maxime repellendus delectus voluptatibus animi ullam, doloremque consectetur! Explicabo excepturi, nihil suscipit atque a voluptates rerum voluptate omnis voluptatem sint modi autem? Tempora autem consectetur cumque et molestias ipsa, voluptatum, ipsam quod quisquam unde error dolorem eius ex itaque aliquam?
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="container">
+    <div id="csopmuv"  style="height:31rem; margin-top: 60px;" class="row d-flex justify-content-center">
+        <div  class="col-12">
+          <h1 style="color: white;" class="text-center titles">
+            Csoportos művészetterápia
+          </h1>
+          <div class="d-flex justify-content-center">
+            <svg height="20" width="150">
+              <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+              <line x1="20" y1="10" x2="130" y2="10" class="line2" />
+            </svg>
+          </div>
+          
+          <p style="font-size: 1.3rem; font-style: italic; font-weight: 500;" class="text-center">Free consultation</p>
+        
+          <div id="query-contact3" style="font-size: 1.2rem; color: white;  text-align: justify; word-break: break-all;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto possimus maxime repellendus delectus voluptatibus animi ullam, doloremque consectetur! Explicabo excepturi, nihil suscipit atque a voluptates rerum voluptate omnis voluptatem sint modi autem? Tempora autem consectetur cumque et molestias ipsa, voluptatum, ipsam quod quisquam unde error dolorem eius ex itaque aliquam?
+          </div>
+        
+        </div>
+    </div>
+</div>
+  <div  class="custom-shape-divider-top-1640312529">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+</section>
+
+    <section id="contact"  style="position: relative; border: 1px, solid, white;" class="p-5 contact">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 d-flex justify-content-center">
+                <h1 style="color: white;" class="text-start">
+                  Keressen bizalommal
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+          <div class="d-flex justify-content-center">
+            <svg height="20" width="150">
+              <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+              <line x1="20" y1="10" x2="130" y2="10" class="line2" />
+            </svg>
+          </div>
+         </div>
+         <div class="row d-flex justify-content-center">
+          <div style="color: white; font-size: 1.8rem;" class="col-5 d-flex justify-content-center mt-3">
+            Rendelési idő
+          </div> 
+          <div style="color: white; font-size: 1.8rem;" class="col-5 d-flex justify-content-center mt-3">
+            Árlista
+          </div> 
+         </div>
+         <div class="row d-flex justify-content-center">
+           <div class="col-5 text-time mt-3 mb-2">
+            <div class="d-flex justify-content-center">
+              <div style="color: white; font-size: 1.8rem;" class="col-12 d-flex justify-content-center">
+                <div class="col-12 d-flex justify-content-center">
+                  <p class="text-time">Kedd: 11.00 - 21.00</p>
+                 </div>  
+              </div> 
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="col-12 d-flex justify-content-center">
+                <p style="color: yellow;">Előzetes egyeztetés szerint</p>
+               </div> 
+            </div>
+            <div class="d-flex justify-content-center">
+              <div style="color: white; font-size: 1.8rem;" class="col-12 d-flex justify-content-center">
+                Elérhetőség
+              </div> 
+            </div>
+            <div class="d-flex justify-content-center">
+              <div style="color: white; font-size: 1.8rem;" class="col-12 d-flex justify-content-center">
+                <div class="col-12 d-flex justify-content-center">
+                  <p class="text-time">E-mail:&nbsp kapcsolatterapia@gmail.com</p>
+                 </div>  
+              </div> 
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="col-12 d-flex justify-content-center">
+                <p class="text-time">Telefon:&nbsp +36708754223</p>
+               </div> 
+            </div>
+           </div>
+           <div style="margin-left: 10px;" class="col-5 text-time mt-3 mb-2">
+              <div class="col-12  d-flex justify-content-center">
+                <p class="text-time">Pszichológiai tanácsadás: <br> &nbsp50 perc/alkalom 10000ft</p> 
+             </div>
+             <div class="col-12  d-flex justify-content-center">
+              <p class="text-time">Online tanácsadás: <br>&nbsp 50 perc/alkalom 80000ft</p> 
+            </div>
+            <div class="col-12  d-flex justify-content-center">
+              <p style="margin-left: 1rem;" class="text-time">Integratív Gyermekterápia: <br>&nbsp 50 perc/alkalom 80000ft</p> 
+            </div>
+           </div>
+         </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1639887178">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+  </section>
+
+  <section style="position: relative; border: 1px, solid, white;" class="px-5 py-3 query-contact">
+    <div class="container">
+        <div  class="row mt-5">
+            <div class="col-12 d-flex justify-content-center">
+              <h1 style="color: white;" class="text-center titles">
+                Keressen bizalommal
+              </h1>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <svg height="20" width="150">
+            <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+            <line x1="20" y1="10" x2="130" y2="10" class="line2" />
+          </svg>
+        </div>
+       </div>
+       <div id="query-contact1" class="row d-flex justify-content-center">
+        <div style="color: white; font-size: 1.6rem;" class="col-12 d-flex justify-content-center mt-1">
+          Elérhetőségek
+        </div> 
+       </div>
+       <div class="row d-flex justify-content-center">
+        <div class="col-12 text-time mb-2">
+          
+            <div class="col-12 d-flex justify-content-center mt-2">
+              <p class="text-time text-center">E-mail:&nbsp  <br>kapcsolatterapia@gmail.com</p>
+             
+             </div> 
+
+            <div class="col-12 d-flex justify-content-center">
+              <p  class="text-time text-center">Telefon: <br>&nbsp +36708754223</p>
+             </div> 
+         
+          <div class="d-flex justify-content-center mt-2 ">
+           <i style="color:white" class="fab fa-facebook fa-2x mx-2"></i>
+           <i style="color:white"  class="fab fa-twitter fa-2x mx-2"></i>
+           <i style="color:white"  class="fab fa-instagram fa-2x mx-2"></i>
+          </div>
+         </div>
+        </div>
+
+        <div id="query-contact2" class="row d-flex justify-content-center">
+          <div style="color: white; font-size: 1.6rem;" class="col-12 d-flex justify-content-center mt-3">
+            Rendelési idő
+          </div> 
+         </div>
+         <div class="row d-flex justify-content-center">
+          <div class="col-12 text-time">
+           
+              <div class="col-12 d-flex justify-content-center">
+                <p style="line-height: 1.8;" class="text-time text-center">Hétfő: 11.00 - 21.00 <br>Kedd: 11.00 - 21.00 <br>Szerda: 11.00 - 21.00 <br>Csütörtök: 11.00 - 21.00 <br> Péntek: 11.00 - 21.00</p>
+               </div>
+         
+           </div>
+          </div>
+
+          <div class="row d-flex justify-content-center">
+            <div style="color: white; font-size: 1.6rem;" class="col-12 d-flex justify-content-center">
+            Árlista
+            </div> 
+           </div>
+           <div style="padding-bottom: 20px;" class="row d-flex justify-content-center">
+            <div class="col-12 text-time  mb-2">
+                <div class="col-12  d-flex justify-content-center">
+                  <p class="text-time text-center mt-1">Pszichológiai tanácsadás: <br> &nbsp&nbsp50 perc/alkalom 10000ft</p> 
+               </div>
+               <div class="col-12  d-flex justify-content-center">
+                <p  class="text-time text-center">Online pszichológiai tanácsadás: <br>&nbsp&nbsp 50 perc/alkalom 8000ft</p> 
+              </div>
+              <div class="col-12  d-flex justify-content-center">
+                <p class="text-time text-center">Gyermekterápia: <br>&nbsp&nbsp 50 perc/alkalom 8000ft</p> 
+              </div>
+             </div>
+           
+             </div>
+        
+      </div>
+      <div class="custom-shape-divider-bottom-1640655158">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+  </section>
+
+     
+  <section id="contact" class="px-5 last-section mb-5">
+    <div class="container-fluid">
+      
+          <div class="row d-flex justify-content-center">
+            <div style="color: rgba(62, 185, 58); font-size: 1.8rem;" class="col-4 d-flex justify-content-center mt-3">
+              Üzenjen most
+            </div> 
+
+            <div style="color: rgba(62, 185, 58); font-size: 1.8rem;" class="col-4 d-flex justify-content-center mt-3">
+              Térkép
+            </div> 
+          
+            <div style="color: rgba(62, 185, 58); font-size: 1.8rem;" class="col-4 d-flex justify-content-center mt-3">
+              Linkek
+            </div> 
+    
+           </div>
+
+           <div class="row d-flex justify-content-center">
+            <div class="col-4 d-flex justify-content-center my-1">
+              <svg height="20" width="150">
+                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                <line x1="30" y1="10" x2="120" y2="10" class="line2" />
+              </svg>
+            </div>
+            <div class="col-4 d-flex justify-content-center my-1">
+              <svg height="20" width="150">
+                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                <line x1="30" y1="10" x2="120" y2="10" class="line2" />
+              </svg>
+            </div>
+            <div class="col-4 d-flex justify-content-center my-1">
+              <svg height="20" width="150">
+                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                <line x1="30" y1="10" x2="120" y2="10" class="line2" />
+              </svg>
+            </div>
+           </div>
+               
+              <div class="row d-flex justify-content-center">
+                <div class="col-4">
+                  <form action="https://formsubmit.co/info@esportmetrics.hu" method="POST" class ="row d-flex ">
+                  
+                    <div class="col-12 d-flex d-flex justify-content-center  mb-1">
+                      <input style="width: 20rem;" type="name" placeholder="Név" id="inputName" required class="form-control  ">
+                    </div>
+                  <div class="col-12 mb-1 d-flex justify-content-center ">
+                    <input style="width: 20rem;"  type="email" placeholder="E-mail cím" id="inputEmail" required class=" form-control ">
+                  </div>
+                  <input type="hidden" name="_next" value="http://esportmetrics.hu/thanks.html">
+                  <div class="col-12 d-flex justify-content-center  mb-1">
+                    <textarea style="width: 20rem;"  name="Üzenet" placeholder="Üzenet" id="Üzenet" rows="6" required class="form-control "></textarea>
+                  </div>
+                  <div style="margin-left: 4rem;" class="text-center d-grid btn-div">
+                    <button type="submit" style="width:10rem; margin-left: 80px; margin-top: 10px;" type="button" class="btn btn-primary rounded-pill p-1">
+                      Küldés
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+             
+                  </form>
+                </div>
+
+                <div class="col-4  d-flex justify-content-center">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11437.981594647192!2d19.001647691883917!3d47.4313575015236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e769e2aa0cdb%3A0xd5b459a7beae5e77!2sBudapest%2C%20Balatoni%20%C3%BAt%203%2C%201223!5e0!3m2!1shu!2shu!4v1640743354044!5m2!1shu!2shu" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="col-4  d-flex justify-content-center ">
+                  <ul class="links">
+                    <li>Bemutatkozás</li>
+                    <li>Szolgáltatlások</li>
+                    <li>Árlista</li>
+                    <li>Rendelési idő</li>
+                    <li>Kapcsolat</li>
+                  </ul>
+                </div>
+                
+         </div>
+</section>
+
+<section id="contact" class="px-5 query-last-section mb-3">
+  <div class="container-fluid">
+    
+        <div class="row d-flex justify-content-center mt-2">
+          <div style="color: rgba(62, 185, 58); font-size: 1.5rem;" class="col-12 d-flex justify-content-center">
+            Üzenjen most
+          </div> 
+        
+         </div>
+         <div class="row d-flex justify-content-center">
+          <div class="col-12 d-flex justify-content-center my-1">
+            <svg height="20" width="150">
+              <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+              <line x1="30" y1="10" x2="120" y2="10" class="line2" />
+            </svg>
+          </div>
+         </div>
+         <div class="row d-flex justify-content-center">
+          <div class="col-12">
+            <form action="https://formsubmit.co/info@esportmetrics.hu" method="POST" class ="row d-flex ">
+            
+              <div class="col-12 d-flex d-flex justify-content-center  mb-1">
+                <input style="width: 20rem;" type="name" placeholder="Név" id="inputName" required class="form-control  ">
+              </div>
+            <div class="col-12 mb-1 d-flex justify-content-center ">
+              <input style="width: 20rem;"  type="email" placeholder="E-mail cím" id="inputEmail" required class=" form-control ">
+            </div>
+            <input type="hidden" name="_next" value="http://esportmetrics.hu/thanks.html">
+            <div class="col-12 d-flex justify-content-center  mb-1">
+              <textarea style="width: 20rem;"  name="Üzenet" placeholder="Üzenet" id="Üzenet" rows="6" required class="form-control "></textarea>
+            </div>
+            <div style="margin-left: 4rem;" class="text-center d-grid btn-div  ">
+              <button type="submit" style="width:10rem" type="button" class="btn btn-primary rounded-pill p-1">
+                Küldés
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+            </form>
+          </div>
+         </div>
+
+          <div class="row d-flex justify-content-center">
+            <div style="color: rgba(103, 202, 90, 0.8); font-size: 1.5rem;" class="col-12 d-flex justify-content-center mt-3">
+              Térkép
+           </div> 
+          </div>
+
+         </div>
+         <div class="row d-flex justify-content-center">
+          <div class="col-12 d-flex justify-content-center">
+            <svg height="20" width="150">
+              <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+              <line x1="30" y1="10" x2="120" y2="10" class="line2" />
+            </svg>
+          </div>
+         </div>
+         <div class="row d-flex justify-content-center">
+
+          <div class="col-12  d-flex justify-content-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11437.981594647192!2d19.001647691883917!3d47.4313575015236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e769e2aa0cdb%3A0xd5b459a7beae5e77!2sBudapest%2C%20Balatoni%20%C3%BAt%203%2C%201223!5e0!3m2!1shu!2shu!4v1640743354044!5m2!1shu!2shu" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>              </div>
+        </div>
+
+         <div class="row d-flex justify-content-center">
+          <div style="color: rgba(103, 202, 90, 0.8); font-size: 1.5rem;" class="col-12 d-flex justify-content-center mt-3">
+             Linkek
+          </div> 
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 d-flex justify-content-center">
+              <svg height="20" width="150">
+                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
+                <line x1="30" y1="10" x2="120" y2="10" class="line2" />
+              </svg>
+            </div>
+           </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-12  d-flex justify-content-center ">
+              <ul class="links text-center">
+                <li>Bemutatkozás</li>
+                <li>Szolgáltatlások</li>
+                <li>Árlista</li>
+                <li>Rendelési idő</li>
+                <li>Kapcsolat</li>
+              </ul>
+            </div>
+           </div>
+       </div>
+</section>
+
+<section>
+  
+  <footer style="background-color:rgba(103, 202, 90, 0.8);"  class="p-3 text-white text-center postition-relative footer">
+    <div class="container">
+        <a href="#menu" class="postion-absolute bottom-0 end-0 p-1">
+         <i style="color: white;" class="fas fa-arrow-alt-circle-up fa-2x"></i>
+
+        </a>
+        <p class="lead py-1">
+            Therapy
+        </p>
+       
+    </div>
+</footer>
+</section>
+
+<section>
+  <footer style="background-color:rgba(103, 202, 90, 0.8);"  class="p-3 text-white text-center postition-relative footer-query">
+    <div class="container">
+        <a href="#query-intro" class="postion-absolute bottom-0 end-0 p-1">
+         <i style="color: white;" class="fas fa-arrow-alt-circle-up fa-2x"></i>
+
+        </a>
+        <p class="lead py-1">
+            Therapy
+        </p>
+       
+    </div>
+</footer>
+</section>
+
+<script>
+  clicked = document.getElementById("butt");
+
+  clicked.addEventListener("click", opened)
+
+  function opened() {
+  addclass =  document.getElementsByTagName("section")[3];
+  if (addclass.classList.contains('addmargin')) {
+    addclass.setAttribute("class", "removemargin");
+  }
+  else {
+    addclass.setAttribute("class", "addmargin");
+  }
+}
+
+function myFunction() {
+  document.getElementById("togg").classList.toggle("addmargin");
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

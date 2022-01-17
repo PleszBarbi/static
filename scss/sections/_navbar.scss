@@ -1,0 +1,54 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+
+    height: 4.5rem;
+  
+    //background-color: rgb(72, 144, 146, 0.6);
+    //background-color: rgb(21, 109, 112, 0.6);
+    background-image: linear-gradient(to right,  rgba(52, 163, 48, 0.8) 0%,rgba(89, 187, 59, 0.8)40%,rgba(153, 238, 142, 0.8) 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    .nav-logo {
+      margin-right: 5rem;
+    }
+    
+    ul {
+      margin-right: 10px;
+
+      li {
+        color: $white;
+        padding: 0 0.7rem;
+  
+        a {
+          color: $white;
+          padding: 0 0.7rem;
+        
+          font-weight: 600;      
+  
+        }
+        a:hover {
+          color:$white;
+        }
+    
+      }    
+    }
+
+   
+}
+
+.menu:hover {
+  background-color: rgb(21, 109, 112);
+}
+
+.menu-2 {
+  height: 2.5rem;
+  background-color: rgb(0, 177, 94);
+  color: white;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: 10px;
+}

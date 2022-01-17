@@ -1,0 +1,21 @@
+@import  "config";
+@import  "utility";
+@import  "buttons";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bgr {
+  background-image:url('../pics/sun.jpg');
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  position: relative;
+}
+
