@@ -4,6 +4,14 @@
 .menu {
 
     height: 4.5rem;
+
+    .list-style{
+      margin-right: 45px;
+    }
+
+    .nav-text{
+      font-size: 1.5rem;
+    }
   
     //background-color: rgb(72, 144, 146, 0.6);
     //background-color: rgb(21, 109, 112, 0.6);
@@ -11,7 +19,7 @@
     transition: 0.5s;
     background-size: 200% auto;
     .nav-logo {
-      margin-right: 5rem;
+      margin-left: 23px;
     }
     
     ul {

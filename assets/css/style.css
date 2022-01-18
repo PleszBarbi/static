@@ -11126,7 +11126,7 @@ textarea.form-control-lg {
 .btn-rounded-2 {
   position: relative;
   padding: 0.8rem 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   margin: 0;
   border: #4ba803;
@@ -11834,7 +11834,6 @@ textarea.form-control-lg {
   width: 500px;
   height: 450px;
   margin-left: 20px;
-  margin-bottom: 150px;
   border-radius: 70%;
   border: 3px solid rgba(27, 82, 26, 0.8);
 }
@@ -11920,6 +11919,7 @@ textarea.form-control-lg {
 
 .contact {
   background-color: rgba(103, 202, 90, 0.8);
+  height: 36rem;
 }
 
 .card {
@@ -11927,8 +11927,16 @@ textarea.form-control-lg {
 }
 
 .family-img {
-  width: 100%;
-  height: 100%;
+  margin-top: 50px;
+  width: 95%;
+  height: 95%;
+  border: 4px solid white;
+}
+
+.family-img2 {
+  margin-top: 50px;
+  width: 95%;
+  height: 80%;
   border: 4px solid white;
 }
 
@@ -11985,6 +11993,10 @@ ul li {
   margin-right: 15px;
 }
 
+a, u {
+  text-decoration: none;
+}
+
 input::placeholder {
   padding-left: 2rem;
 }
@@ -12026,12 +12038,12 @@ textarea::placeholder {
 
 .line1 {
   stroke: #00ff15;
-  stroke-width: 4;
+  stroke-width: 6;
 }
 
 .line2 {
   stroke: #7bff00;
-  stroke-width: 2;
+  stroke-width: 3;
 }
 
 .menu {
@@ -12040,8 +12052,14 @@ textarea::placeholder {
   transition: 0.5s;
   background-size: 200% auto;
 }
+.menu .list-style {
+  margin-right: 45px;
+}
+.menu .nav-text {
+  font-size: 1.5rem;
+}
 .menu .nav-logo {
-  margin-right: 5rem;
+  margin-left: 23px;
 }
 .menu ul {
   margin-right: 10px;
@@ -12102,6 +12120,10 @@ textarea::placeholder {
   .footer-query {
     display: none;
   }
+
+  .query-introduction {
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   html, body {
@@ -12114,21 +12136,24 @@ textarea::placeholder {
   }
 
   .menu {
-    margin-right: 0;
     height: 5.4rem;
     width: 100%;
     background-size: 100% auto;
     background-image: linear-gradient(to right, rgba(52, 160, 49, 0.8) 0%, rgba(89, 187, 59, 0.8) 40%, rgba(114, 216, 100, 0.8) 100%);
   }
-  .menu .logo-nav {
-    margin-right: 1rem;
+  .menu .nav-text {
+    font-size: 1.2rem;
+  }
+  .menu .list-style {
+    margin-right: 0;
   }
   .menu .nav-logo {
-    margin-right: 1rem;
+    margin-right: 0;
   }
   .menu ul {
+    margin-top: 7px;
     background-image: linear-gradient(to right, rgba(52, 160, 49, 0.8) 0%, rgba(89, 187, 59, 0.8) 40%, rgba(110, 204, 97, 0.8) 100%);
-    width: 25.3rem;
+    width: 100%;
     padding: 0.5rem;
   }
 
@@ -12136,8 +12161,21 @@ textarea::placeholder {
     display: none;
   }
 
+  .logo-nav {
+    display: none;
+  }
+
+  .introduction {
+    display: none;
+  }
+
   .nav-visible {
     display: none;
+  }
+
+  .carousel-control {
+    height: 0;
+    top: 50%;
   }
 
   .intro-box {
@@ -12158,6 +12196,28 @@ textarea::placeholder {
     font-size: 1.5rem;
   }
 
+  .intro-box2 {
+    height: 79rem;
+    width: 100%;
+    background-color: rgba(103, 202, 90, 0.8);
+  }
+  .intro-box2 div {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  .intro-box2 p {
+    color: whitesmoke;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 1rem;
+  }
+
+  .intro-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
   .intro-section .intro-box {
     height: 475px;
     width: 530px;
@@ -12224,7 +12284,142 @@ textarea::placeholder {
   .intro-section .intro-box-4 p {
     font-family: "Libre Baskerville", serif;
   }
+  .intro-section .intro-box-5 {
+    height: 230px;
+    width: 100%;
+    border: 1px solid red;
+    z-index: 1;
+    position: relative;
+  }
+  .intro-section .intro-box-5 .box-pic2 {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 75px;
+    border-radius: 50%;
+    border: 3px solid rgba(21, 109, 112, 0.6);
+  }
+  .intro-section .intro-box-5 p {
+    font-family: "Libre Baskerville", serif;
+  }
+  .intro-section .links-2 {
+    color: white;
+    margin-top: 15px;
+  }
+  .intro-section .links-2 li {
+    font-size: 1.2rem;
+    line-height: 20px;
+    margin-right: 15px;
+  }
   .intro-section .intro-box-cicrle {
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    background-color: rgba(153, 238, 142, 0.8);
+    margin-top: 240px;
+    margin-left: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    border: 3px solid rgba(15, 182, 0, 0.6);
+  }
+
+  .intro-section-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .intro-section-2 .intro-box {
+    height: 475px;
+    width: 530px;
+    background-color: rgba(153, 238, 142, 0.8);
+    margin-left: 0px;
+  }
+  .intro-section-2 .intro-box div {
+    color: whitesmoke;
+    font-size: 1.3rem;
+  }
+  .intro-section-2 .intro-box p {
+    color: whitesmoke;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+  .intro-section-2 .intro-box-2 {
+    height: 475px;
+    width: 500px;
+    border-radius: 0px;
+    background-color: rgba(153, 238, 142, 0.8);
+    position: absolute;
+    margin-bottom: 100px;
+  }
+  .intro-section-2 .intro-box-2 .box-pic {
+    width: 120px;
+    z-index: 3;
+    margin-top: 210px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  .intro-section-2 .intro-box-3 {
+    height: 400px;
+    width: 410px;
+    z-index: 1;
+    position: relative;
+    margin-left: 50px;
+  }
+  .intro-section-2 .intro-box-3 .box-pic {
+    width: 330px;
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 70%;
+    border: 3px solid rgba(21, 109, 112, 0.6);
+  }
+  .intro-section-2 .intro-box-3 p {
+    font-family: "Libre Baskerville", serif;
+  }
+  .intro-section-2 .intro-box-4 {
+    height: 475px;
+    width: 500px;
+    z-index: 1;
+    margin-right: 80px;
+    margin-bottom: 80px;
+  }
+  .intro-section-2 .intro-box-4 .box-pic-2 {
+    width: 500px;
+    height: 450px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+    border-radius: 70%;
+    border: 3px solid rgba(21, 109, 112, 0.6);
+  }
+  .intro-section-2 .intro-box-4 p {
+    font-family: "Libre Baskerville", serif;
+  }
+  .intro-section-2 .intro-box-5 {
+    height: 250px;
+    width: 100%;
+    background-color: rgba(103, 202, 90, 0.8);
+    z-index: 1;
+    position: relative;
+  }
+  .intro-section-2 .intro-box-5 .box-pic2 {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 75px;
+    border-radius: 50%;
+    border: 3px solid rgba(21, 109, 112, 0.6);
+  }
+  .intro-section-2 .intro-box-5 p {
+    font-family: "Libre Baskerville", serif;
+  }
+  .intro-section-2 .links-2 {
+    color: white;
+    margin-top: 15px;
+  }
+  .intro-section-2 .links-2 li {
+    font-size: 1.2rem;
+    line-height: 20px;
+    margin-right: 15px;
+  }
+  .intro-section-2 .intro-box-cicrle {
     height: 230px;
     width: 230px;
     position: absolute;

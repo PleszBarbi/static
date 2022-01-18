@@ -13,6 +13,14 @@
    
 }
 
+@mixin gradient-2 {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+
 
 // ABSOLUTE CENTER 
 @mixin absoluteCenter {
