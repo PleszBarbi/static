@@ -11806,7 +11806,7 @@ textarea.form-control-lg {
 }
 
 .intro-box-3 {
-  height: 475px;
+  height: 500px;
   width: 500px;
   z-index: 1;
   position: relative;
@@ -11814,10 +11814,10 @@ textarea.form-control-lg {
   margin-bottom: 80px;
 }
 .intro-box-3 .box-pic {
-  width: 500px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   margin-left: 20px;
-  border-radius: 70%;
+  border-radius: 50%;
   border: 3px solid rgba(52, 160, 49, 0.8);
 }
 .intro-box-3 p {
@@ -11915,16 +11915,16 @@ textarea.form-control-lg {
 }
 
 .services {
-  background-color: rgba(103, 202, 90, 0.8);
+  background-color: rgba(69, 182, 55, 0.8);
 }
 
 .contact {
-  background-color: rgba(103, 202, 90, 0.8);
+  background-color: rgba(69, 182, 55, 0.8);
   height: 40rem;
 }
 
 .card {
-  background-color: rgba(103, 202, 90, 0.8);
+  background-color: rgba(69, 182, 55, 0.8);
 }
 
 .family-img {
