@@ -754,25 +754,30 @@ Lágymányosi utca 17/b</p>
               <div class="row d-flex justify-content-center">
                 <div class="col-4">
                   <form action="https://formsubmit.co/pleszpszichologus@gmail.com" method="POST" class ="row d-flex ">
-                  
-                    <div class="col-12 d-flex d-flex justify-content-center  mb-1">
-                      <input style="width: 20rem;" type="name" placeholder="Név" id="inputName" required class="form-control  ">
+                    <!-- Hidden field for reply-to email -->
+                    <input type="hidden" name="_replyto" value="email"> 
+        
+                    <div class="col-12 d-flex justify-content-center  mb-1">
+                        <input style="width: 20rem;" type="text" name="name" placeholder="Név" id="inputName" required class="form-control  ">
                     </div>
-                  <div class="col-12 mb-1 d-flex justify-content-center ">
-                    <input style="width: 20rem;"  type="email" placeholder="E-mail cím" id="inputEmail" required class=" form-control ">
-                  </div>
-                 
-                  <div class="col-12 d-flex justify-content-center  mb-1">
-                    <textarea style="width: 20rem;"  name="Üzenet" placeholder="Üzenet" id="Üzenet" rows="6" required class="form-control "></textarea>
-                  </div>
-                  <div style="margin-left: 4rem;" class="text-center d-grid btn-div">
-                    <button type="submit" style="width:10rem; margin-left: 80px; margin-top: 10px;" type="button" class="btn btn-primary rounded-pill p-1">
-                      Küldés
-                      <i class="fas fa-paper-plane"></i>
-                    </button>
-                  </div>
-             
-                  </form>
+                    <div class="col-12 mb-1 d-flex justify-content-center ">
+                        <input style="width: 20rem;" type="email" name="email" placeholder="E-mail cím" id="inputEmail" required class="form-control">
+                    </div>
+                    <div class="col-12 mb-1 d-flex justify-content-center ">
+                        <!-- Phone number input field -->
+                        <input style="width: 20rem;" type="tel" name="phone" placeholder="Telefonszám" id="inputPhone" required class="form-control">
+                    </div>
+                    
+                    <div class="col-12 d-flex justify-content-center  mb-1">
+                        <textarea style="width: 20rem;" name="message" placeholder="Üzenet" id="Üzenet" rows="6" required class="form-control "></textarea>
+                    </div>
+                    <div style="margin-left: 4rem;" class="text-center d-grid btn-div">
+                        <button type="submit" style="width:10rem; margin-left: 80px; margin-top: 10px;" class="btn btn-primary rounded-pill p-1">
+                            Küldés
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
                 </div>
 
                 <div class="col-4  d-flex justify-content-center">
@@ -813,25 +818,29 @@ Lágymányosi utca 17/b</p>
          </div>
          <div class="row d-flex justify-content-center">
           <div class="col-12">
-            <form action="https://formsubmit.co/info@esportmetrics.hu" method="POST" class ="row d-flex ">
-            
-              <div class="col-12 d-flex d-flex justify-content-center  mb-1">
-                <input style="width: 20rem;" type="name" placeholder="Név" id="inputName" required class="form-control  ">
+            <form action="https://formsubmit.co/pleszpszichologus@gmail.com" method="POST" class ="row d-flex ">
+        
+              <div class="col-12 d-flex justify-content-center  mb-1">
+                  <input style="width: 20rem;" type="text" name="name" placeholder="Név" id="inputName" required class="form-control">
               </div>
-            <div class="col-12 mb-1 d-flex justify-content-center ">
-              <input style="width: 20rem;"  type="email" placeholder="E-mail cím" id="inputEmail" required class=" form-control ">
-            </div>
-            <input type="hidden" name="_next" value="http://esportmetrics.hu/thanks.html">
-            <div class="col-12 d-flex justify-content-center  mb-1">
-              <textarea style="width: 20rem;"  name="Üzenet" placeholder="Üzenet" id="Üzenet" rows="6" required class="form-control "></textarea>
-            </div>
-            <div style="margin-left: 4rem;" class="text-center d-grid btn-div  ">
-              <button type="submit" style="width:10rem" type="button" class="btn btn-primary rounded-pill p-1">
-                Küldés
-                <i class="fas fa-paper-plane"></i>
-              </button>
-            </div>
-            </form>
+              <div class="col-12 mb-1 d-flex justify-content-center ">
+                  <input style="width: 20rem;" type="email" name="email" placeholder="E-mail cím" id="inputEmail" required class="form-control">
+              </div>
+              <!-- Phone number input field -->
+              <div class="col-12 mb-1 d-flex justify-content-center ">
+                  <input style="width: 20rem;" type="tel" name="phone" placeholder="Telefonszám" id="inputPhone" required class="form-control">
+              </div>
+              <input type="hidden" name="_next" value="http://esportmetrics.hu/thanks.html">
+              <div class="col-12 d-flex justify-content-center  mb-1">
+                  <textarea style="width: 20rem;" name="message" placeholder="Üzenet" id="Üzenet" rows="6" required class="form-control"></textarea>
+              </div>
+              <div style="margin-left: 4rem;" class="text-center d-grid btn-div">
+                  <button type="submit" style="width:10rem" class="btn btn-primary rounded-pill p-1">
+                      Küldés
+                      <i class="fas fa-paper-plane"></i>
+                  </button>
+              </div>
+          </form>
           </div>
          </div>
 
