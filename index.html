@@ -1,931 +1,781 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Plesz Barbara pszichológus">
-    <meta property="og:image" content="http://pleszpszichologus.hu/pics/barbi7.jpg">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <title>Plesz Barbara</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Estonia&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Pacifico&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Plesz Barbara pszichológus" property="og:title"/>
+<meta content="http://pleszpszichologus.hu/pics/barbi7.jpg" property="og:image"/>
+<link href="assets/css/style.css" rel="stylesheet"/>
+<link href="assets/css/fontawesome.css" rel="stylesheet"/>
+<title>Plesz Barbara</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Estonia&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Estonia&amp;family=Pacifico&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"/>
 <script src="./index.js"></script>
 </head>
-  <body>
+<body>
 <section>
-  <nav class="navbar menu-2 ">
-    <div class="container-fluid px-4 mx-4">
-      <div class="d-flex">
-       <div style="margin-left: 15px;">
-        <div>
-          <i class="fas fa-map-marker-alt"></i>
-      </div>
-       </div>
-       <div class="mx-1">
-        <p>Belső Sziget Terápiás központ 1111 Budapest
-Lágymányosi utca 17/b</p>
-    </div>
-      </div>
-      <div style="margin-right: 20px;" class="d-flex justify-content-end">
-        <div class="mx-2">
-         <div>
-          <i class="fas fa-envelope"></i>
-       </div>
-        </div>
-        <div class="mx-1">
-         <p>pleszpszichologus@gmail.com</p>
-      </div>
-      <div class="mx-2">
-        <div>
-          <i class="fas fa-mobile-alt"></i>
-      </div>
-       </div>
-       <div class="mx-1">
-        <p>+36205711456</p>
-     </div>
-     <span class="mx-2"> <svg height="25" width="4">
-      <line x1="0" y1="0" x2="0" y2="22" style="stroke:rgb(240, 240, 240);stroke-width:4"/>
-    </svg></span>
-    <div class="mx-2">
-      <div>
-        <a style="color:white; text-decoration: none;" href="facebook.com/bbmuveszetterapia">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </div>
-     </div>
-       </div>
-    </div>
-  </nav>
-</section>
-
-<section>
-  <nav id="menu" class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top-sm">
-    <div class="container-fluid">
-      <div class="d-flex justify-content-start mx-3-sm mx-3 logo-nav">
-        <a class="navbar-brand d-flex align-items-center nav-logo " href="#">
-          <img style="width: 60px;" src="pics/logo6.png" alt="logo image">
-          <p  class="mt-3 mx-3 nav-text">Plesz Barbara</p>
-        </a>
-      </div>
-      
-      <button style="margin-right: 20px;" id="butt" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div  class="collapse navbar-collapse justify-content-end" id="navbarNav" >
-        <ul class="nav navbar-nav nav-visible list-style">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Kezdőlap</a></li>
-          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#bemut">Bemutatkozás</a></li>
-          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#services-short">Szolgáltatások</a></li>
-          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#arak">Árak</a></li>
-          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#rendeles">Rendelési idő</a></li>
-          <li class="nav-item"><a href="#contact" style="color:rgb(255, 255, 255, 0.8)" class="nav-link">Kapcsolat</a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav gx-3 nav-query">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Kezdőlap</a></li>
-          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link"  href="#bemut-query">Bemutatkozás</a></li>
-          <li  class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#query-services-short">Szolgáltatások</a></li>
-          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)"  class="nav-link"  href="#query-contact2">Árak</a></li>
-          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#query-contact1">Rendelési idő</a></li>
-          <li class="nav-item"><a style="color:rgb(255, 255, 255, 0.8)" class="nav-link" href="#query-contact3">Kapcsolat</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-    
-  </nav>
- </section>
-    
-    
- <section  class="intro">
-    <div  class="container-fluid">
-      <div class="container-fluid  intro-section">
-        <div class="bg-filter ">
-        <div style="height: 32rem;" class="row my-4 d-flex justify-content-center">
-          <div class="col-6 d-flex justify-content-end">
-        
-            <div class="intro-box-3">
-              <div  class="d-flex justify-content-end">
-                <img  src="pics/barbi7.jpg" alt="logo-image" class="box-pic mt-3">
-              </div>
-                                
-            </div>
-            <div class="intro-box-cicrle d-flex align-items-center">
-                <h5 style="color: aliceblue;" class="text-center p-1">Plesz Barbara, neuroaffirmatív szemléletű pszichológus, Komplex Integratív Gyermekterapeuta, képzésben lévő tanácsadó szakpszichológus <br> jelölt</h5> 
-            </div>
-          </div>
-          <div  class="col-6 mt-5 d-flex align-items-center mt-3 ">
-              <div class="intro-box d-flex align-items-center justify-content-center mt-2">
-                <div  class="px-5">
-                  <div>
-                    <div class="mt-5">
-                      <p style="font-size: 1rem; line-height: 30px;"  class="text-center">
-                          Plesz Barbara vagyok, pszichológus, zenész, anya. Már gyermekkoromban gyerekekkel szerettem volna foglalkozni, de az akkor elképzelt óvónő irány helyett végül a pszichológia mellett kötöttem ki. A gyermekek szeretete megmaradt, így választottam szakirányt. Az ELTE Pszichológia szakán, Tanácsadás és Iskolapszichológia szakirányon végeztem 2013-ban, majd egészen 2019 év végéig egy belvárosi iskolában, majd a kisgyermekes évek után 2023-ig a Carl Rogers Személyközpontú Óvoda és Általános Iskolában dolgoztam iskolapszichológusként (6-15 éves korosztállyal). Jelenleg egyéni és neuroaffirmatív csoportos tanácsadással foglalkozom Budapest XI. kerületében.
-                      </p>
-                    </div>
-                    <div class="mt-5">
-                      <p style="font-size: 1rem; line-height: 30px;"  class="text-center">
-                         Az elmúlt években elvégeztem a Magyar Komplex Pszichoterápiás Egyesület  Komplex Integratív Gyermek Pszichoterapeuta képzését, valamint több neuroaffirmatív módszertani képzést a Neurodiverz Műhely szervezésében. Jelenleg az ELTE Tanácsadó Szakpszichológus szakirányú továbbképzés hallgatója vagyok.                      </p>
-                    </div>  
-                    <div class="mt-5">
-                      <p style="font-size: 1rem; line-height: 30px;"  class="text-center">
-                        Tanulmányaim alatt fontossá vált számomra mind az integratív gondolkodás, mind az átfogó és rendszerszemléletű munka. Mindezek és az egyéni tanácsadási munkám tapasztalatai is egyre inkább arra vezettek, hogy at ember számtalan féle lehet, és ez nagyon rendben van így. Szeretettel várom a neurodivergens gyermekeket, felnőtteket, szülőket, valamint egyéb nehézségekkel küzdőket egyéni tanácsadás keretein belül.                     </div>  
-                    <div id="services-short">
-
-                    </div>
-                    <button style="margin-left: 7.5rem; margin-bottom: 5rem;"  type="button" class="btn-rounded-2 mt-4">
-                       <a style="color: white;" href="#contact">Lépjen kapcsolatba</a>
-                    </button>
-                </div>
-        
-                </div>
-              </div>
-                  <div class="intro-box-2 d-flex justify-content-end">
-                  
-                  </div>
-              </div>
-              
-              </div>
-            
-          </div>
-        </div>
-      </div>
- </section>
-
- <section id="query-intro"  class="query-intro">
-  <div class="container-fluid">
-    <div class="container-fluid  intro-section">
-      <div class="bg-filter ">
-       <div style="height: 38rem; margin-top: 50px;" class="row">
-         <div class="col-12 d-flex justify-content-center">
-       
-          <div class="intro-box-3">
-            <div class="d-flex justify-content-end">
-              <img src="pics/barbi7.jpg" alt="logo-image" class="box-pic mt-3">
-            </div>                
-          </div>
-          <div class="intro-box-cicrle d-flex align-items-center">
-            <h5 style="color: aliceblue;" class="text-center p-1">Plesz Barbara, neuroaffirmatív szemléletű pszichológus, Komplex Integratív Gyermekterapeuta, képzésben lévő tanácsadó szakpszichológus <br> jelölt</h5> 
-        </div>
-      
-         </div>
-        
-        </div>
-        <a style="position: absolute; right: 10px; bottom:30px" href="#jump">
-          <i style="color: rgb(112, 209, 104);" class="far fa-arrow-alt-circle-down fa-3x"></i>
-        </a>
-     </div>
-   </div>
+<nav class="navbar menu-2">
+<div class="container-fluid px-4 mx-4">
+<div class="d-flex">
+<div style="margin-left: 15px;">
+<div>
+<i class="fas fa-map-marker-alt"></i>
 </div>
- </section>
+</div>
+<div class="mx-1">
+<p>Berek Terápiás és Fejlesztő Központ 1111 Budapest, Bartók Béla út 14.</p>
+</div>
+</div>
+<div class="d-flex justify-content-end" style="margin-right: 20px;">
+<div class="mx-2">
+<div>
+<i class="fas fa-envelope"></i>
+</div>
+</div>
+<div class="mx-1">
+<p>pleszpszichologus@gmail.com</p>
+</div>
+<div class="mx-2">
+<div>
+<i class="fas fa-mobile-alt"></i>
+</div>
+</div>
+<div class="mx-1">
+<p>+36205711456</p>
+</div>
+<span class="mx-2"> <svg height="25" width="4">
+<line style="stroke:rgb(240, 240, 240);stroke-width:4" x1="0" x2="0" y1="0" y2="22"></line>
+</svg></span>
+<div class="mx-2">
+<div>
+<a href="https://minddiverzum.com/" style="color:white; text-decoration: none;">
+<i class="fab fa-facebook"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</section>
+<section>
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top-sm" id="menu">
+<div class="container-fluid">
+<div class="d-flex justify-content-start mx-3-sm mx-3 logo-nav">
+<a class="navbar-brand d-flex align-items-center nav-logo" href="#">
+<img alt="logo image" src="pics/logo6.png" style="width: 60px;"/>
+<p class="mt-3 mx-3 nav-text">Plesz Barbara</p>
+</a>
+</div>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" id="butt" style="margin-right: 20px;" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+<ul class="nav navbar-nav nav-visible list-style">
+<li class="nav-item"><a aria-current="page" class="nav-link active" href="#">Kezdőlap</a></li>
+<li class="nav-item"><a class="nav-link" href="#bemut" style="color:rgb(255, 255, 255, 0.8)">Bemutatkozás</a></li>
+<li class="nav-item"><a class="nav-link" href="#services-short" style="color:rgb(255, 255, 255, 0.8)">Szolgáltatások</a></li>
+<li class="nav-item"><a class="nav-link" href="#arak" style="color:rgb(255, 255, 255, 0.8)">Árak</a></li>
 
+<li class="nav-item"><a class="nav-link" href="#contact" style="color:rgb(255, 255, 255, 0.8)">Kapcsolat</a>
+</li>
+</ul>
+<ul class="nav navbar-nav gx-3 nav-query">
+<li class="nav-item"><a aria-current="page" class="nav-link active" href="#">Kezdőlap</a></li>
+<li class="nav-item"><a class="nav-link" href="#bemut-query" style="color:rgb(255, 255, 255, 0.8)">Bemutatkozás</a></li>
+<li class="nav-item"><a class="nav-link" href="#query-services-short" style="color:rgb(255, 255, 255, 0.8)">Szolgáltatások</a></li>
+<li class="nav-item"><a class="nav-link" href="#query-contact2" style="color:rgb(255, 255, 255, 0.8)">Árak</a></li>
 
-
-      <section style="background-color: white;" class="p-5 services-short">
-          <div class="container">
-              <div style="height:20rem;" class="row text-center g-4 d-flex justify-content-center align-items-center">
-                <div class="col-md">
-                  <div class="card text-light mb">
-                      <div class="card-body text-center">
-                          <div  class="h1  ">
-                            <i class="fas fa-child"></i>
-                          
-                          </div>
-                      
-                          <h3 class="card-title mb-3">
-                            Komplex Integratív <br> gyermekterápia
+<li class="nav-item"><a class="nav-link" href="#query-contact3" style="color:rgb(255, 255, 255, 0.8)">Kapcsolat</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</section>
+<section class="intro">
+<div class="container-fluid">
+<div class="container-fluid intro-section">
+<div class="bg-filter">
+<div class="row my-4 d-flex justify-content-center" style="height: 32rem;">
+<div class="col-6 d-flex justify-content-end">
+<div class="intro-box-3">
+<div class="d-flex justify-content-end">
+<img alt="logo-image" class="box-pic mt-3" src="pics/barbi7.jpg"/>
+</div>
+</div>
+<div class="intro-box-cicrle d-flex align-items-center">
+<h5 class="text-center p-1" style="color: aliceblue;">Neuroaffirmatív szemléletű pszichológus, Komplex Integratív Gyermekterapeuta, képzésben lévő tanácsadó szakpszichológus</h5>
+</div>
+</div>
+<div class="col-6 mt-5 d-flex align-items-center mt-3">
+<div class="intro-box d-flex align-items-center justify-content-center mt-2">
+<div class="px-5">
+<div>
+<div class="mt-5">
+<p class="text-center" style="font-size: 1rem; line-height: 30px;">Plesz Barbara vagyok, pszichológus, zenész, anya. Már gyermekkoromban gyerekekkel szerettem volna foglalkozni, de az akkor elképzelt óvónő irány helyett végül a pszichológia mellett kötöttem ki. A gyermekek szeretete megmaradt, így választottam szakirányt. Az ELTE Pszichológia szakán, Tanácsadás és Iskolapszichológia szakirányon végeztem 2013-ban, majd egészen 2019 év végéig egy belvárosi iskolában, majd a kisgyermekes évek után 2023-ig a Carl Rogers Személyközpontú Óvoda és Általános Iskolában dolgoztam iskolapszichológusként (6-15 éves korosztállyal). Jelenleg egyéni és neuroaffirmatív csoportos tanácsadással foglalkozom Budapest XI. kerületében.</p>
+</div>
+<div class="mt-5">
+<p class="text-center" style="font-size: 1rem; line-height: 30px;">Az elmúlt években elvégeztem a Magyar Komplex Pszichoterápiás Egyesület  Komplex Integratív Gyermek Pszichoterapeuta képzését, valamint több neuroaffirmatív módszertani képzést a Neurodiverz Műhely szervezésében. Jelenleg az ELTE Tanácsadó Szakpszichológus szakirányú továbbképzés hallgatója vagyok.</p>
+</div>
+<div class="mt-5">
+<p class="text-center" style="font-size: 1rem; line-height: 30px;">Tanulmányaim alatt fontossá vált számomra mind az integratív gondolkodás, mind az átfogó és rendszerszemléletű munka. Mindezek és az egyéni tanácsadási munkám tapasztalatai is egyre inkább arra vezettek, hogy at ember számtalan féle lehet, és ez nagyon rendben van így. Szeretettel várom a neurodivergens gyermekeket, felnőtteket, szülőket, valamint egyéb nehézségekkel küzdőket egyéni tanácsadás keretein belül.</p></div>
+<div id="services-short">
+</div>
+<button class="btn-rounded-2 mt-4" style="margin-left: 7.5rem; margin-bottom: 5rem;" type="button">
+<a href="#contact" style="color: white;">Lépjen kapcsolatba</a>
+</button>
+</div>
+</div>
+</div>
+<div class="intro-box-2 d-flex justify-content-end">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="query-intro" id="query-intro">
+<div class="container-fluid">
+<div class="container-fluid intro-section">
+<div class="bg-filter">
+<div class="row" style="height: 38rem; margin-top: 50px;">
+<div class="col-12 d-flex justify-content-center">
+<div class="intro-box-3">
+<div class="d-flex justify-content-end">
+<img alt="logo-image" class="box-pic mt-3" src="pics/barbi7.jpg"/>
+</div>
+</div>
+<div class="intro-box-cicrle d-flex align-items-center">
+<h5 class="text-center p-1" style="color: aliceblue;">Neuroaffirmatív szemléletű pszichológus, Komplex Integratív Gyermekterapeuta, képzésben lévő tanácsadó szakpszichológus</h5>
+</div>
+</div>
+</div>
+<a href="#jump" style="position: absolute; right: 10px; bottom:30px">
+<i class="far fa-arrow-alt-circle-down fa-3x" style="color: rgb(112, 209, 104);"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="p-5 services-short" style="background-color: white;">
+<div class="container">
+<div class="row text-center g-4 d-flex justify-content-center align-items-center" style="height:20rem;">
+<div class="col-md">
+<div class="card text-light mb">
+<div class="card-body text-center">
+<div class="h1">
+<i class="fas fa-child"></i>
+</div>
+<h3 class="card-title mb-3">
+                            Komplex Integratív <br/> gyermekterápia
                           </h3>
-                          <p class="card-text mt-1">
-                            A módszer rendszerszemléletben gondolkodik,<br> és együttműködik <br> a gyermekek környezetével.
+<p class="card-text mt-1">
+                            A módszer rendszerszemléletben gondolkodik,<br/> és együttműködik <br/> a gyermekek környezetével.
                            </p>
-                          <a href="#intgyer" class="btn btn-primary py-2 px-3">
+<a class="btn btn-primary py-2 px-3" href="#intgyer">
                               Bővebben
                           </a>
-                     
-                      </div>
-                  </div>
-              </div>  
-                <div class="col-md"> 
-                  <div  class="card text-light">
-                      <div class="card-body text-center">
-                        <div class="h1 ">
-                          <i class="fas fa-hands-helping"></i>
-                        </div>
-                        <h3 class="card-title mb-3">
-                          Egyéni <br> tanácsadás
+</div>
+</div>
+</div>
+<div class="col-md">
+<div class="card text-light">
+<div class="card-body text-center">
+<div class="h1">
+<i class="fas fa-hands-helping"></i>
+</div>
+<h3 class="card-title mb-3">
+                          Egyéni <br/> tanácsadás
                         </h3>
-                        <p  class="card-text mt-1">
-                          Egyéni tanácsadás esetén feltárjuk a probléma hátterét és meghatározzuk <br> a további irányt.                    
+<p class="card-text mt-1">
+                          Egyéni tanácsadás esetén feltárjuk a probléma hátterét és meghatározzuk <br/> a további irányt.                    
                         </p>
-                        <a href="#intgyer" class="btn btn-primary py-2 px-3">
+<a class="btn btn-primary py-2 px-3" href="#intgyer">
                             Bővebben
                         </a>
-                         
-                          </div>
-                      </div>
-                  </div>
-                  
-                  <div class="col-md">
-                    <div class="card text-light">
-                      <div class="card-body text-center">
-                        <div  class="h1  ">
-                          <i class="fas fa-palette"></i>
-                        
-                        </div>
-                    
-                        <h3 class="card-title mb-3">
-                          Csoportos <br> művészetterápia
+</div>
+</div>
+</div>
+<div class="col-md">
+<div class="card text-light">
+<div class="card-body text-center">
+<div class="h1">
+<i class="fas fa-palette"></i>
+</div>
+<h3 class="card-title mb-3">
+                          Csoportos <br/> művészetterápia
                         </h3>
-                        <p style="padding: 0.76rem;" class="card-text mt-1">
-                        Művészet- és meseterápia kiscsoportos formában.                        
-                        </p>
-                        <a href="#intgyer" class="btn btn-primary py-2 px-3">
+<p class="card-text mt-1" style="padding: 0.76rem;">Neuroaffirmatív szemléletű, kiscsoportos képzések — részletek a MindDiverzumban.</p>
+<a class="btn btn-primary py-2 px-3" href="#intgyer">
                             Bővebben
                         </a>
-                   
-                    </div>
-                    
-              </div>
-              </div>
-          </div>
-  
-      </section>
-
-      <section  style="background-color: white;" class="px-5  query-services-short">
-        <div id="query-services-short" class="container">
-            <div style="height:20rem; margin-bottom: 5rem;" class="row text-center g-4 d-flex justify-content-center align-items-center">
-                
-              <div  id="carouselExampleIndicators" class="carousel slide info-carosuel" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div  class="col-md">
-                      <div style="max-height: auto;" class="card text-light">
-                        <div class="card-body text-center">
-                          <div class="h1 ">
-                            <i class="fas fa-hands-helping"></i>
-                          </div>
-                          <h3 class="card-title mb-3">
-                            Egyéni <br> tanácsadás
+</div>
+</div>
+</div>
+</div>
+</div></section>
+<section class="px-5 query-services-short" style="background-color: white;">
+<div class="container" id="query-services-short">
+<div class="row text-center g-4 d-flex justify-content-center align-items-center" style="height:20rem; margin-bottom: 5rem;">
+<div class="carousel slide info-carosuel" data-bs-ride="carousel" id="carouselExampleIndicators">
+<div class="carousel-indicators">
+<button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button>
+<button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button>
+<button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<div class="col-md">
+<div class="card text-light" style="max-height: auto;">
+<div class="card-body text-center">
+<div class="h1">
+<i class="fas fa-hands-helping"></i>
+</div>
+<h3 class="card-title mb-3">
+                            Egyéni <br/> tanácsadás
                           </h3>
-                          <p style="width: auto;" class="card-text mt-1 px-1 text-center">
-                            Egyéni tanácsadás esetén feltárjuk a probléma hátterét <br> és meghatározzuk a további irányt. 
+<p class="card-text mt-1 px-1 text-center" style="width: auto;">
+                            Egyéni tanácsadás esetén feltárjuk a probléma hátterét <br/> és meghatározzuk a további irányt. 
                           </p>
-                          <a href="#gyertera" class="btn btn-primary py-2 px-3">
+<a class="btn btn-primary py-2 px-3" href="#gyertera">
                               Bővebben
                           </a>
-                       
-                        </div>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="col-md d-flex justify-content-center">
-                      <div class="card text-light mb">
-                        <div class="card-body text-center">
-                            <div  class="h1  ">
-                              <i class="fas fa-child"></i>
-                            
-                            </div>
-                        
-                            <h3 class="card-title mb-3">
-                              Komplex  Integratív <br> gyerekterápia
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<div class="col-md d-flex justify-content-center">
+<div class="card text-light mb">
+<div class="card-body text-center">
+<div class="h1">
+<i class="fas fa-child"></i>
+</div>
+<h3 class="card-title mb-3">
+                              Komplex  Integratív <br/> gyerekterápia
                             </h3>
-                            <p style="width: auto;" class="card-text mt-1 text-center">
+<p class="card-text mt-1 text-center" style="width: auto;">
                               A módszer rendszerszemléletben gondolkodik és együttműködik a gyermekek környezetével.
                             </p>
-                            <a href="#gyertera" class="btn btn-primary py-2 px-3">
+<a class="btn btn-primary py-2 px-3" href="#gyertera">
                                 Bővebben
                             </a>
-                        </div>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div  class="col-md">
-                      <div class="card text-light">
-                        <div class="card-body text-center">
-                            <div class="h1">
-                              <i class="fas fa-palette"></i>
-                            </div >
-                            <h3 class="card-title mb-3">
-                              Csoportos művészetterápia
-                            </h3>
-                            <p  class="card-text mt-4">
-                              Művészet- és meseterápia kiscsoportos formában</p>
-                            <a style="margin-top: 3rem;" href="#csopmuv" class="btn btn-primary py-2 px-3">
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<div class="col-md">
+<div class="card text-light">
+<div class="card-body text-center">
+<div class="h1">
+<i class="fas fa-palette"></i>
+</div>
+<h3 class="card-title mb-3">Neuroaffirmatív csoportos képzések</h3>
+<p class="card-text mt-4">Neuroaffirmatív szemléletű, kiscsoportos képzések — részletek a MindDiverzumban.</p>
+<a class="btn btn-primary py-2 px-3" href="#csopmuv" style="margin-top: 3rem;">
                                 Bővebben
                             </a>
-                              </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                 
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-           
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
-
-    </section>
-
-    <section style="position: relative;" class="p-5 services">
-      <div class="container">
-          <div style="height:20rem; margin-top: 100px;" class="row d-flex">
-              <div id="intgyer" class="col-8">
-                <h2 style="color: white;" class="text-start">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button">
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button">
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+</section>
+<section class="p-5 services" style="position: relative;">
+<div class="container">
+<div class="row d-flex" style="height:20rem; margin-top: 100px;">
+<div class="col-8" id="intgyer">
+<h2 class="text-start" style="color: white;">
                   Komplex Integratív Gyermekterápia
                 </h2>
-                <div class="d-flex justify-content-start">
-                  <svg height="20" width="200">
-                    <line x1="0" y1="0" x2="200" y2="0" class="line1" />
-                    <line x1="0" y1="10" x2="170" y2="10" class="line2" />
-                  </svg>
-                </div>
-                <div style="font-size: 1.3rem; color: white; width: 50rem;" class="col-4">
-                  A Komplex Integratív Gyermekterápia lényege, hogy rendszerszemléletben gondolkodik. A gyermekeket soha nem lehet függetleníteni a környezettől. A foglalkozások során nagy hangsúly helyeződik a szülőkkel való munkára, de adott esetben más szakemberekkel, pedagógusokkal való együttműködés is szerepet kaphat. A szemlélet több gyakorlati módszert integrál. Előkerülnek játékterápiás, művészet és meseterápiás vagy dramatikus eszközök, imaginációs technikák (KIP), relaxáció. <br> <br>
-                  Az első, online konzultáció féláron van, hogy legyen lehetőségünk eldönteni, szeretnénk és tudunk-e együtt dolgozni. Keressenek bizalommal!
-                </div>
-          </div>
-          <div class="col-4">
-            <img style="width: 390px;; height:300px;; margin-top:50px; border: 4px solid white;" src="pics/1938373783-huge.jpg" alt="">
-          </div>
-      </div>
-    </div>
-      <div class="container">
-        <div style="height:20rem; margin-top: 100px;" class="row d-flex justify-content-center">
-            <div id="pszitan2" class="col-8">
-              <h2 style="color: white;" class="text-start">
+<div class="d-flex justify-content-start">
+<svg height="20" width="200">
+<line class="line1" x1="0" x2="200" y1="0" y2="0"></line>
+<line class="line2" x1="0" x2="170" y1="10" y2="10"></line>
+</svg>
+</div>
+<div class="col-4" style="font-size: 1.3rem; color: white; width: 50rem;">
+                  A Komplex Integratív Gyermekterápia lényege, hogy rendszerszemléletben gondolkodik. A gyermekeket soha nem lehet függetleníteni a környezettől. A foglalkozások során nagy hangsúly helyeződik a szülőkkel való munkára, de adott esetben más szakemberekkel, pedagógusokkal való együttműködés is szerepet kaphat. A szemlélet több gyakorlati módszert integrál. Előkerülnek játékterápiás, művészet és meseterápiás vagy dramatikus eszközök, imaginációs technikák (KIP), relaxáció. <br/> <br/>
+</div>
+</div>
+<div class="col-4">
+<img alt="" src="pics/1938373783-huge.jpg" style="width: 390px;; height:300px;; margin-top:50px; border: 4px solid white;"/>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row d-flex justify-content-center" style="height:20rem; margin-top: 100px;">
+<div class="col-8" id="pszitan2">
+<h2 class="text-start" style="color: white;">
                 Egyéni tanácsadás
               </h2>
-              <div class="d-flex justify-content-start">
-                <svg height="20" width="200">
-                  <line x1="0" y1="0" x2="200" y2="0" class="line1" />
-                  <line x1="0" y1="10" x2="170" y2="10" class="line2" />
-                </svg>
-              </div>
-             
-                <div style="font-size: 1.3rem; color: white; width: 50rem;">
-                  Egyéni tanácsadás esetén feltárjuk a probléma hátterét és meghatározzuk a további irányt. Fordulhatnak hozzám személyesen vagy online formában, életvezetési tanácsadás vagy szülői tanácsadás keretein belül szorongás, indulatkezelési nehézség, önértékelési problémák, rágódás, kapcsolódási nehézségek és egyéb, nem pszichoterápiát igénylő problémák esetén.  <br> <br>
-                  Az első, online konzultáció féláron van, hogy legyen lehetőségünk eldönteni, szeretnénk és tudunk-e együtt dolgozni. Keressenek bizalommal!
-                </div>
-            </div>
-            <div class="col-4">
-              <img class="family-img " src="pics/shutterstock_1136971007.jpg" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-      <div id="csopmuv2" style="height:20rem; margin-top: 100px;" class="row d-flex justify-content-center">
-          <div class="col-8">
-            <h2 style="color: white;" class="text-start mt-3">
-              Csoportos művészetterápia
-            </h2>
-            <div class="d-flex justify-content-start">
-              <svg height="20" width="200">
-                <line x1="0" y1="0" x2="200" y2="0" class="line1" />
-                <line x1="0" y1="10" x2="170" y2="10" class="line2" />
-              </svg>
-            </div>
-         
-            <div style="font-size: 1.3rem; color: white; width: 50rem;">
-              Berki Barbara Művészetterapeuta kolléganőmmel közösen felnőtteknek szóló művészet- és meseterápiás csoportokat is tartok, melyekről bővebb információt a <a style="color: rgb(0, 255, 200);" href=""><link rel="stylesheet" href="facebook.com/bbmuveszetterapia">facebook.com/bbmuveszetterapia</a> oldalon találhatnak.
-            </div>
-      </div>
-      <div class="col-4">
-        <img class="family-img" src="pics/shutterstock_789177421.jpg" alt="">
-      </div>
-  </div>
-      <div class="custom-shape-divider-top-1639621164">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-        </svg>
-    </div>
-  </section>
-
-  
-  <section id="gyertera" style="position: relative;" class="p-3 query-services">
-    <div class="container">
-        <div  style="height:auto; margin-top: 10px;" class="row d-flex justify-content-center  mt-3">
-            <div class="col-12">
-              <h1 style="color: white;" class="text-center titles mt-4">
+<div class="d-flex justify-content-start">
+<svg height="20" width="200">
+<line class="line1" x1="0" x2="200" y1="0" y2="0"></line>
+<line class="line2" x1="0" x2="170" y1="10" y2="10"></line>
+</svg>
+</div>
+<div style="font-size: 1.3rem; color: white; width: 50rem;">
+                  Egyéni tanácsadás esetén feltárjuk a probléma hátterét és meghatározzuk a további irányt. Fordulhatnak hozzám személyesen vagy online formában, életvezetési tanácsadás vagy szülői tanácsadás keretein belül szorongás, indulatkezelési nehézség, önértékelési problémák, rágódás, kapcsolódási nehézségek és egyéb, nem pszichoterápiát igénylő problémák esetén.  <br/> <br/>
+</div>
+</div>
+<div class="col-4">
+<img alt="" class="family-img" src="pics/shutterstock_1136971007.jpg"/>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row d-flex justify-content-center" id="csopmuv2" style="height:20rem; margin-top: 100px;">
+<div class="col-8">
+<h2 class="text-start mt-3" style="color: white;">Neuroaffirmatív csoportos képzések</h2>
+<div class="d-flex justify-content-start">
+<svg height="20" width="200">
+<line class="line1" x1="0" x2="200" y1="0" y2="0"></line>
+<line class="line2" x1="0" x2="170" y1="10" y2="10"></line>
+</svg>
+</div>
+<div style="font-size: 1.3rem; color: white; width: 50rem;">Silhavy Zita inkluzív pedagógia és neurodivergencia kutató és kommunikációs tréner kollégámmal tartott csoportos képzéseinkről bővebb információt a MindDiverzum honlapján talál: <a href="https://minddiverzum.com/" target="_blank">https://minddiverzum.com/</a><br/><br/>A MindDiverzum egy neuroaffirmatív, nyílt gondolkodású, fiatalos kezdeményezés, ahol elhivatottan támogatjuk az egyedi elméket az önálló életvezetésben. <br/>Szakmailag és személyes életünkben is képviseljük, hogy a megfelelő önismeret és tudás lehetőséget biztosít önmagunk elfogadására és arra, hogy maszkok nélkül tudjunk beilleszkedni kisebb és nagyobb közösségeinkbe.</div>
+</div>
+<div class="col-4">
+<img alt="" class="family-img" src="pics/shutterstock_789177421.jpg"/>
+</div>
+</div>
+<div class="custom-shape-divider-top-1639621164">
+<svg data-name="Layer 1" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<path class="shape-fill" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+</svg>
+</div>
+</div></section>
+<section class="p-3 query-services" id="gyertera" style="position: relative;">
+<div class="container">
+<div class="row d-flex justify-content-center mt-3" style="height:auto; margin-top: 10px;">
+<div class="col-12">
+<h1 class="text-center titles mt-4" style="color: white;">
                 Komplex Integratív Gyermekterápia
               </h1>
-              <div class="d-flex justify-content-center">
-                <svg height="20" width="150">
-                  <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-                  <line x1="20" y1="10" x2="130" y2="10" class="line2" />
-                </svg>
+<div class="d-flex justify-content-center">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="20" x2="130" y1="10" y2="10"></line>
+</svg>
+</div>
+<div style="font-size: 1.2rem; color: white;  text-align: center;">
+                A Komplex Integratív Gyermek Pszichoterápia lényege, hogy rendszerszemléletben gondolkodik. <br/> A gyermekeket soha nem lehet függetleníteni a környezettől. <br/> A foglalkozások során nagy hangsúly helyeződik a szülőkkel való munkára, de adott esetben más szakemberekkel, pedagógusokkal való együttműködés is szerepet kaphat. A szemlélet több gyakorlati módszert integrál. Előkerülnek játékterápiás, művészet és meseterápiás vagy dramatikus eszközök, imaginációs technikák (KIP), relaxáció. 
+                
               </div>
-              <div style="font-size: 1.2rem; color: white;  text-align: center;">
-                A Komplex Integratív Gyermek Pszichoterápia lényege, hogy rendszerszemléletben gondolkodik. <br> A gyermekeket soha nem lehet függetleníteni a környezettől. <br> A foglalkozások során nagy hangsúly helyeződik a szülőkkel való munkára, de adott esetben más szakemberekkel, pedagógusokkal való együttműködés is szerepet kaphat. A szemlélet több gyakorlati módszert integrál. Előkerülnek játékterápiás, művészet és meseterápiás vagy dramatikus eszközök, imaginációs technikák (KIP), relaxáció. 
-                Az első, online konzultáció féláron van, hogy legyen lehetőségünk eldönteni, szeretnénk és tudunk-e együtt dolgozni. <br> Keressenek bizalommal!
-              </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-      <div id="pszita" style="height:auto;" class="row d-flex justify-content-center  mt-3">
-          <div class="col-12">
-            <h1 style="color: white;" class="text-center titles">
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row d-flex justify-content-center mt-3" id="pszita" style="height:auto;">
+<div class="col-12">
+<h1 class="text-center titles" style="color: white;">
               Egyéni tanácsadás
             </h1>
-            <div class="d-flex justify-content-center">
-              <svg height="20" width="150">
-                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-                <line x1="20" y1="10" x2="130" y2="10" class="line2" />
-              </svg>
-            </div>
-            <div id="query-contact" style="font-size: 1.2rem; color: white;  text-align: center;"  >
+<div class="d-flex justify-content-center">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="20" x2="130" y1="10" y2="10"></line>
+</svg>
+</div>
+<div id="query-contact" style="font-size: 1.2rem; color: white;  text-align: center;">
               Egyéni tanácsadás esetén feltárjuk a probléma hátterét és meghatározzuk a további irányt. Fordulhatnak hozzám életvezetési tanácsadás vagy szülői tanácsadás keretein belül szorongás, indulatkezelési nehézség, önértékelési problémák, rágódás, kapcsolódási nehézségek és egyéb, nem pszichoterápiát igénylő problémák esetén. Személyesen vagy online formában.
-              Az első, online konzultáció féláron van, hogy legyen lehetőségünk eldönteni, szeretnénk és tudunk-e együtt dolgozni. Keressenek bizalommal!
+              
             </div>
-            
-          </div>
-      </div>
-  </div>
-  <div class="container">
-    <div id="csopmuv"  style="height:auto;" class="row d-flex justify-content-center mt-3">
-        <div  class="col-12">
-          <h1 style="color: white;" class="text-center titles">
-            Csoportos művészetterápia
-          </h1>
-          <div class="d-flex justify-content-center">
-            <svg height="20" width="150">
-              <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-              <line x1="20" y1="10" x2="130" y2="10" class="line2" />
-            </svg>
-          </div>
-        
-          <div style="font-size: 1.2rem; color: white;   text-align: center;">
-            Művészetterapeuta kolléganőmmel közösen ugyanakkor felnőtteknek szóló művészet- és meseterápiás csoportokat <br> is tartok, melyekről bővebb <br> információt a <a style="color: rgb(1, 255, 255);" href="facebook.com/bbmuveszetterapia">facebook.com/bbmuveszetterapia</a> oldalon <br> találhatnak.          </div>
-        
-        </div>
-    </div>
-  </div>
-    <div  class="custom-shape-divider-top-1640312529">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-      </svg>
-  </div>
-  </section>
-
-    <section style="position: relative;" class="p-5 services">
-      <div class="container">
-          <div  style="height:43rem;" class="row d-flex justify-content-center">
-            <h1 style="color: white;" class="text-center">
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row d-flex justify-content-center mt-3" id="csopmuv" style="height:auto;">
+<div class="col-12">
+<h1 class="text-center titles" style="color: white;">Neuroaffirmatív csoportos képzések</h1>
+<div class="d-flex justify-content-center">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="20" x2="130" y1="10" y2="10"></line>
+</svg>
+</div>
+<div style="font-size: 1.2rem; color: white;   text-align: center;">Silhavy Zita inkluzív pedagógia és neurodivergencia kutató és kommunikációs tréner kollégámmal tartott csoportos képzéseinkről bővebb információt a MindDiverzum honlapján talál: <a href="https://minddiverzum.com/" target="_blank">https://minddiverzum.com/</a><br/><br/>A MindDiverzum egy neuroaffirmatív, nyílt gondolkodású, fiatalos kezdeményezés, ahol elhivatottan támogatjuk az egyedi elméket az önálló életvezetésben. <br/>Szakmailag és személyes életünkben is képviseljük, hogy a megfelelő önismeret és tudás lehetőséget biztosít önmagunk elfogadására és arra, hogy maszkok nélkül tudjunk beilleszkedni kisebb és nagyobb közösségeinkbe.</div>
+</div>
+</div>
+</div>
+<div class="custom-shape-divider-top-1640312529">
+<svg data-name="Layer 1" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<path class="shape-fill" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+</svg>
+</div>
+</section>
+<section class="p-5 services" style="position: relative;">
+<div class="container">
+<div class="row d-flex justify-content-center" style="height:43rem;">
+<h1 class="text-center" style="color: white;">
               Bemutatkozás
              </h1>
-              <div id="bemut" class="col-8 mt-2">
-                <h2 style="color: white;" class="text-start mt-3">
+<div class="col-8 mt-2" id="bemut">
+<h2 class="text-start mt-3" style="color: white;">
                   Plesz Barbara
                 </h2>
-                <div class="d-flex justify-content-start">
-                  <svg height="20" width="200">
-                    <line x1="0" y1="0" x2="180" y2="0" class="line1" />
-                    <line x1="0" y1="10" x2="150" y2="10" class="line2" />
-                  </svg>
-                </div>
-                <p style="font-size: 1.2rem; font-style: italic; font-weight: 500;">Pszichológus, Komplex Integratív Gyermekterapeuta jelölt</p>
-                <div class="mt-4" style="font-size: 1.2rem; color: white;">
-                  <p style="font-size: 1.2rem; color: white; line-height: 35px;">
-                    Plesz Barbara vagyok, pszichológus, zenész, anya. Már gyermekkoromban gyerekekkel szerettem volna foglalkozni, de az akkor elképzelt óvónő irány helyett végül a pszichológia mellett kötöttem ki. A gyermekek szeretete megmaradt, így választottam szakirányt. Az ELTE Pszichológia szakán, Tanácsadás és Iskolapszichológia szakirányon végeztem 2013-ban, majd egészen 2019 év végéig egy belvárosi iskolában dolgoztam iskolapszichológusként (6-18 éves korosztállyal). Jelenleg pedig a Magyar Komplex Pszichoterápiás Egyesület Integratív Gyermek Pszichoterapeuta képzését végzem, mely módszertant szupervízió mellett használom is. Eszköztáramban szerepelnek mindenféle képzőművészeti, zenei játékok, relaxáció, mesék és játékterápiás eszközök.                 </div>
+<div class="d-flex justify-content-start">
+<svg height="20" width="200">
+<line class="line1" x1="0" x2="180" y1="0" y2="0"></line>
+<line class="line2" x1="0" x2="150" y1="10" y2="10"></line>
+</svg>
+</div>
+<p style="font-size: 1.2rem; font-style: italic; font-weight: 500;">Neuroaffirmatív szemléletű pszichológus, Komplex Integratív Gyermekterapeuta, képzésben lévő tanácsadó szakpszichológus</p>
+<div class="mt-4" style="font-size: 1.2rem; color: white;"><p>Plesz Barbara vagyok, pszichológus, zenész, anya. Már gyermekkoromban gyerekekkel szerettem volna foglalkozni, de az akkor elképzelt óvónő irány helyett végül a pszichológia mellett kötöttem ki. A gyermekek szeretete megmaradt, így választottam szakirányt. Az ELTE Pszichológia szakán, Tanácsadás és Iskolapszichológia szakirányon végeztem 2013-ban, majd egészen 2019 év végéig egy belvárosi iskolában, majd a kisgyermekes évek után 2023-ig a Carl Rogers Személyközpontú Óvoda és Általános Iskolában dolgoztam iskolapszichológusként (6-15 éves korosztállyal). Jelenleg egyéni és neuroaffirmatív csoportos tanácsadással foglalkozom Budapest XI. kerületében.</p><p>Az elmúlt években elvégeztem a Magyar Komplex Pszichoterápiás Egyesület  Komplex Integratív Gyermek Pszichoterapeuta képzését, valamint több neuroaffirmatív módszertani képzést a Neurodiverz Műhely szervezésében. Jelenleg az ELTE Tanácsadó Szakpszichológus szakirányú továbbképzés hallgatója vagyok.</p><p>Tanulmányaim alatt fontossá vált számomra mind az integratív gondolkodás, mind az átfogó és rendszerszemléletű munka. Mindezek és az egyéni tanácsadási munkám tapasztalatai is egyre inkább arra vezettek, hogy at ember számtalan féle lehet, és ez nagyon rendben van így. Szeretettel várom a neurodivergens gyermekeket, felnőtteket, szülőket, valamint egyéb nehézségekkel küzdőket egyéni tanácsadás keretein belül.</p></div>
 
-                  </p>
-                  <p style="font-size: 1.2rem; color: white; line-height: 35px;">
+<p style="font-size: 1.2rem; color: white; line-height: 35px;">
                     Mióta 2020 elején megszületett a kislányom, vele vagyok otthon, de mellette dolgozom részidőben, kisebb, nagyobb gyerekekkel és szüleikkel egyaránt. Jelenleg iskolapszichológusként a Carl Rogers Személyközpontú Óvoda és Általános Iskolában. A gyermekek terápiájában kiemelten fontosnak tartom a szülőkkel való folyamatos munkát, mert nélkülük nem valósulhat meg a gyógyulás sem. 
-                   </p>   
-              </div>
-              <div class="col-4 mt-5">
-                <div class="intro-box-3">
-                  <div  class="d-flex justify-content-end">
-                    <img  src="pics/Barbi.jpg" alt="logo-image" class="box-pic mt-3">
-                  </div>
-                                    
-                </div>
-              </div>
-        </div>
-    </section>
-    <section id="query-intro"  class="query-intro">
-    <div class="container-fluid">
-      <div class="container-fluid  intro-section-2">
-
-        <div id="bemut-query" class="row d-flex flex-column  justify-content-center">
-            <div class="intro-box-5">
-              <h1 style="color: white;" class="text-center mt-3">
+                   </p>
+</div>
+<div class="col-4 mt-5">
+<div class="intro-box-3">
+<div class="d-flex justify-content-end">
+<img alt="logo-image" class="box-pic mt-3" src="pics/Barbi.jpg"/>
+</div>
+</div>
+</div>
+</div>
+</div></section>
+<section class="query-intro" id="query-intro">
+<div class="container-fluid">
+<div class="container-fluid intro-section-2">
+<div class="row d-flex flex-column justify-content-center" id="bemut-query">
+<div class="intro-box-5">
+<h1 class="text-center mt-3" style="color: white;">
                 Bemutatkozás
               </h1>
-              <div style="margin-top: 2rem; height: auto;" class="d-flex justify-content-center ">
-                <img src="pics/Barbi.jpg" alt="logo-image" class="box-pic2 mb-3">
-              </div>                
-          </div>
-            <div class="intro-box2 d-flex align-items-center">
-            
-                <div class="p-5">
-                  <h3 style="color: white; max-width: 400px;" class="text-center">
+<div class="d-flex justify-content-center" style="margin-top: 2rem; height: auto;">
+<img alt="logo-image" class="box-pic2 mb-3" src="pics/Barbi.jpg"/>
+</div>
+</div>
+<div class="intro-box2 d-flex align-items-center">
+<div class="p-5">
+<h3 class="text-center" style="color: white; max-width: 400px;">
                     Plesz Barbara
                   </h3>
-                  <div class="row d-flex justify-content-center">
-                    <div class="col-12 d-flex justify-content-center">
-                      <svg height="20" width="150">
-                        <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-                        <line x1="30" y1="10" x2="120" y2="10" class="line2" />
-                      </svg>
-                    </div>
-                  </div>
-                  <p class="text-center">Pszichológus, Komplex Integratív Gyermekterapeuta jelölt</p>
-                  <div  style="text-align: center;">
-                    Plesz Barbara vagyok, pszichológus, zenész, anya. Már gyermekkoromban gyerekekkel szerettem volna foglalkozni, de az akkor elképzelt óvónő irány helyett végül a pszichológia mellett kötöttem ki. A gyermekek szeretete megmaradt, így választottam szakirányt. Az ELTE Pszichológia szakán, Tanácsadás és Iskolapszichológia szakirányon végeztem 2013-ban, majd egészen 2019 év végéig egy belvárosi iskolában dolgoztam iskolapszichológusként (6-18 éves korosztállyal). Jelenleg pedig a Magyar Komplex Pszichoterápiás Egyesület Integratív Gyermek Pszichoterapetuta képzését végzem, mely módszertant szupervízió mellett használom is. Eszköztáramban szerepelnek mindenféle képzőművészeti, zenei játékok, relaxáció, mesék és játékterápiás eszközök.
-                  </div>
-              </div>
-          
-          </div>
-          </div>
-    
-    </div>
-    </div>
-    </section>
-
-    <section id="contact"  style="position: relative; border: 1px, solid, white;" class="contact">
-      <div class="container">
-          <div class="row">
-              <div class="col-12 d-flex justify-content-center">
-                <h1 style="color: white;" class="text-start mt-3">
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="30" x2="120" y1="10" y2="10"></line>
+</svg>
+</div>
+</div>
+<p class="text-center">Neuroaffirmatív szemléletű pszichológus, Komplex Integratív Gyermekterapeuta, képzésben lévő tanácsadó szakpszichológus</p>
+<div style="text-align: center;"><p>Plesz Barbara vagyok, pszichológus, zenész, anya. Már gyermekkoromban gyerekekkel szerettem volna foglalkozni, de az akkor elképzelt óvónő irány helyett végül a pszichológia mellett kötöttem ki. A gyermekek szeretete megmaradt, így választottam szakirányt. Az ELTE Pszichológia szakán, Tanácsadás és Iskolapszichológia szakirányon végeztem 2013-ban, majd egészen 2019 év végéig egy belvárosi iskolában, majd a kisgyermekes évek után 2023-ig a Carl Rogers Személyközpontú Óvoda és Általános Iskolában dolgoztam iskolapszichológusként (6-15 éves korosztállyal). Jelenleg egyéni és neuroaffirmatív csoportos tanácsadással foglalkozom Budapest XI. kerületében.</p><p>Az elmúlt években elvégeztem a Magyar Komplex Pszichoterápiás Egyesület  Komplex Integratív Gyermek Pszichoterapeuta képzését, valamint több neuroaffirmatív módszertani képzést a Neurodiverz Műhely szervezésében. Jelenleg az ELTE Tanácsadó Szakpszichológus szakirányú továbbképzés hallgatója vagyok.</p><p>Tanulmányaim alatt fontossá vált számomra mind az integratív gondolkodás, mind az átfogó és rendszerszemléletű munka. Mindezek és az egyéni tanácsadási munkám tapasztalatai is egyre inkább arra vezettek, hogy at ember számtalan féle lehet, és ez nagyon rendben van így. Szeretettel várom a neurodivergens gyermekeket, felnőtteket, szülőket, valamint egyéb nehézségekkel küzdőket egyéni tanácsadás keretein belül.</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="contact" id="contact" style="position: relative; border: 1px, solid, white;">
+<div class="container">
+<div class="row">
+<div class="col-12 d-flex justify-content-center">
+<h1 class="text-start mt-3" style="color: white;">
                   Keressen bizalommal!
                 </h1>
-            </div>
-        </div>
-        <div class="row">
-          <div class="d-flex justify-content-center">
-            <svg height="20" width="200">
-              <line x1="0" y1="0" x2="200" y2="0" class="line1" />
-              <line x1="40" y1="10" x2="160" y2="10" class="line2" />
-            </svg>
-          </div>
-         </div>
-         <div id="rendeles" class="row d-flex justify-content-center">
-          <div style="color: white; font-size: 1.8rem;" class="col-12 d-flex justify-content-center mt-4">
-            Rendelési idő
-          </div> 
-          <div class="d-flex justify-content-center">
-            <div style="color: white;" class="col-12 d-flex justify-content-center">
-              <div class="col-12 d-flex flex-column justify-content-center text-time">
-                <p style="margin-left: 10px;" class="text-center mt-2">Személyesen: keddenként, előzetes bejelentkezés alapján <br> Online: előzetes bejelentkezés alapján</p>
-               </div>  
-            </div> 
-          </div>
-         </div>
-         <div id="arak" class="row d-flex justify-content-center">
-          <div style="color: white; font-size: 1.8rem;" class="col-12 d-flex justify-content-center mt-3">
-            Árak
-          </div> 
-          <div class="col-12 d-flex flex-column justify-content-center text-time ">
-            <p class="text-center mt-2">Integratív Gyermekterápia:  
-              50 perc/alkalom 15000 Ft <br>
-              Egyéni tanácsadás (személyes vagy online): 
-              50 perc/alkalom 15000 Ft <br>
-              Első online konzultáció: 6000 Ft
-            </p> 
-         </div>
-         
-         </div>
-         <div class="row d-flex justify-content-center">
-          <div style="color: white; font-size: 1.8rem;" class="col-12 d-flex justify-content-center mt-3">
-            Elérhetőségek
-          </div> 
-          <div class="col-12 d-flex justify-content-center text-time mt-2">
-            <p class="text-center" >E-mail:&nbsp pleszpszichologus@gmail.com <br> Telefon:&nbsp +36205711456</p>
-           </div>  
-         </div>
-      </div>
-      <div class="custom-shape-divider-bottom-1639887178">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-        </svg>
-    </div>
-  </section>
+</div>
+</div>
+<div class="row">
+<div class="d-flex justify-content-center">
+<svg height="20" width="200">
+<line class="line1" x1="0" x2="200" y1="0" y2="0"></line>
+<line class="line2" x1="40" x2="160" y1="10" y2="10"></line>
+</svg>
+</div>
+</div>
 
-  <section style="position: relative; border: 1px, solid, white;" class="px-5 query-contact">
-    <div id="query-contact3" class="container">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-              <h1 style="color: white;" class="text-center titles">
+<div class="row d-flex justify-content-center" id="arak">
+<div class="col-12 d-flex justify-content-center mt-3" style="color: white; font-size: 1.8rem;">
+            Árak
+          </div>
+<div class="col-12 d-flex flex-column justify-content-center text-time">
+<p class="text-center mt-2">Integratív Gyermekterápia: 45 perc - 20000 Ft <br/>Egyéni tanácsadás személyesen: 50 perc - 20000 Ft <br/>Online egyéni vagy szülői tanácsadás: 50 perc - 18000 Ft</p>
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center mt-3" style="color: white; font-size: 1.8rem;">
+            Elérhetőségek
+          </div>
+<div class="col-12 d-flex justify-content-center text-time mt-2">
+<p class="text-center">E-mail:  pleszpszichologus@gmail.com <br/> Telefon:  +36205711456</p>
+</div>
+</div>
+</div>
+<div class="custom-shape-divider-bottom-1639887178">
+<svg data-name="Layer 1" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<path class="shape-fill" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+</svg>
+</div>
+</section>
+<section class="px-5 query-contact" style="position: relative; border: 1px, solid, white;">
+<div class="container" id="query-contact3">
+<div class="row">
+<div class="col-12 d-flex justify-content-center">
+<h1 class="text-center titles" style="color: white;">
                 Keressen bizalommal
               </h1>
-          </div>
-      </div>
-
-      <div class="row">
-        <div class="d-flex justify-content-center">
-          <svg height="20" width="150">
-            <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-            <line x1="20" y1="10" x2="130" y2="10" class="line2" />
-          </svg>
-        </div>
-       </div>
-       <div  id="query-contact1" class="row d-flex justify-content-center">
-        <div style="color: white; font-size: 1.6rem; font-weight: 700;" class="col-12 d-flex justify-content-center mt-1">
+</div>
+</div>
+<div class="row">
+<div class="d-flex justify-content-center">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="20" x2="130" y1="10" y2="10"></line>
+</svg>
+</div>
+</div>
+<div class="row d-flex justify-content-center" id="query-contact1">
+<div class="col-12 d-flex justify-content-center mt-1" style="color: white; font-size: 1.6rem; font-weight: 700;">
           Elérhetőségek
-        </div> 
-       </div>
-       <div i class="row d-flex justify-content-center">
-        <div class="col-12 text-time mb-2">
-          
-            <div class="col-12 d-flex justify-content-center mt-2">
-              <p class="text-time text-center">E-mail:&nbsp  <br>pleszpszichologus@gmail.com</p>
-             
-             </div> 
-
-            <div class="col-12 d-flex justify-content-center">
-              <p  class="text-time text-center">Telefon: <br>&nbsp +36205711456</p>
-             </div> 
-         </div>
         </div>
+</div>
+<div class="row d-flex justify-content-center" i="">
+<div class="col-12 text-time mb-2">
+<div class="col-12 d-flex justify-content-center mt-2">
+<p class="text-time text-center">E-mail:   <br/>pleszpszichologus@gmail.com</p>
+</div>
+<div class="col-12 d-flex justify-content-center">
+<p class="text-time text-center">Telefon: <br/>  +36205711456</p>
+</div>
+</div>
+</div>
 
-        <div id="query-contact2" class="row d-flex justify-content-center">
-          <div style="color: white; font-size: 1.6rem; font-weight: 700;" class="col-12 d-flex justify-content-center">
-            Rendelési idő
-          </div> 
-         </div>
-         <div class="row d-flex justify-content-center">
-          <div class="col-12 text-time">
-           
-              <div class="col-12 d-flex justify-content-center">
+<div class="row d-flex justify-content-center">
+<div class="col-12 text-time">
 
-                  <p style="line-height: 1.8;" class="text-time text-center">
-                    Online: előzetes bejelentkezés alapján
-                    </p>
-               </div>
-               <div class="col-12 d-flex justify-content-center">
-                <p style="line-height: 1.8;" class="text-time text-center">Személyesen : keddenként, előzetes bejelentkezés alapján
-                
-                  </p>
-                
-               </div>
-         
-           </div>
-          </div>
 
-          <div class="row d-flex justify-content-center">
-            <div style="color: white; font-size: 1.6rem; font-weight: 700;" class="col-12 d-flex justify-content-center">
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center" style="color: white; font-size: 1.6rem; font-weight: 700;">
             Árak
-            </div> 
-           </div>
-           <div style="padding-bottom: 20px;" class="row d-flex justify-content-center">
-            <div class="col-12 text-time  mb-2">
-                <div class="col-12  d-flex justify-content-center">
-                  <p class="text-time text-center mt-1">Egyéni tanácsadás (személyes vagy online) <br>
-                    50 perc <br> 15000 Ft
-                   </p> 
-               </div>
-              <div class="col-12  d-flex justify-content-center">
-                <p class="text-time text-center">Integratív gyermekterápia:  <br>
-                  50 perc <br> 15000 Ft</p> 
-                  </p> 
-              </div>
-              <div class="col-12  d-flex justify-content-center">
-                <p class="text-time text-center">Első, online konzultáció:   <br>
-                  6000 Ft </p> 
-              </div>
-             </div>
-           
-             </div>
-        
-      </div>
-      <div class="custom-shape-divider-bottom-1640655158">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-        </svg>
-    </div>
-  </section>
+            </div>
+</div>
+<div class="row d-flex justify-content-center" style="padding-bottom: 20px;">
+<div class="col-12 text-time mb-2">
+<div class="col-12 d-flex justify-content-center">
 
-     
-  <section id="contact" class="px-5 py-3 last-section mb-5">
-    <div class="container-fluid">
-      
-          <div class="row d-flex justify-content-center">
-            <div style="color: rgba(62, 185, 58); font-size: 1.8rem;" class="col-4 d-flex justify-content-center mt-3">
+<p class="text-time text-center">Integratív Gyermekterápia: 45 perc - 20000 Ft
+Egyéni tanácsadás személyesen: 50 perc - 20000 Ft
+Online egyéni vagy szülői tanácsadás: 50 perc - 18000 Ft</p></div>
+<div class="col-12 d-flex justify-content-center">
+
+
+</div>
+<div class="col-12 d-flex justify-content-center">
+
+</div>
+</div>
+</div>
+</div>
+<div class="custom-shape-divider-bottom-1640655158">
+<svg data-name="Layer 1" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<path class="shape-fill" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+</svg>
+</div>
+</section>
+<section class="px-5 py-3 last-section mb-5" id="contact">
+<div class="container-fluid">
+<div class="row d-flex justify-content-center">
+<div class="col-4 d-flex justify-content-center mt-3" style="color: rgba(62, 185, 58); font-size: 1.8rem;">
               Üzenjen most
-            </div> 
-
-            <div style="color: rgba(62, 185, 58); font-size: 1.8rem;" class="col-4 d-flex justify-content-center mt-3">
+            </div>
+<div class="col-4 d-flex justify-content-center mt-3" style="color: rgba(62, 185, 58); font-size: 1.8rem;">
               Térkép
-            </div> 
-          
-            <div style="color: rgba(62, 185, 58); font-size: 1.8rem;" class="col-4 d-flex justify-content-center mt-3">
+            </div>
+<div class="col-4 d-flex justify-content-center mt-3" style="color: rgba(62, 185, 58); font-size: 1.8rem;">
               Linkek
-            </div> 
-    
-           </div>
-
-           <div class="row d-flex justify-content-center">
-            <div class="col-4 d-flex justify-content-center my-1">
-              <svg height="20" width="150">
-                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-                <line x1="30" y1="10" x2="120" y2="10" class="line2" />
-              </svg>
             </div>
-            <div class="col-4 d-flex justify-content-center my-1">
-              <svg height="20" width="150">
-                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-                <line x1="30" y1="10" x2="120" y2="10" class="line2" />
-              </svg>
-            </div>
-            <div class="col-4 d-flex justify-content-center my-1">
-              <svg height="20" width="150">
-                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-                <line x1="30" y1="10" x2="120" y2="10" class="line2" />
-              </svg>
-            </div>
-           </div>
-               
-              <div class="row d-flex justify-content-center">
-                <div class="col-4">
-                  <form action="https://formsubmit.co/pleszpszichologus@gmail.com" method="POST" class ="row d-flex ">
-                    <!-- Hidden field for reply-to email -->
-                    <input type="hidden" name="_replyto" value="email"> 
-        
-                    <div class="col-12 d-flex justify-content-center  mb-1">
-                        <input style="width: 20rem;" type="text" name="name" placeholder="Név" id="inputName" required class="form-control  ">
-                    </div>
-                    <div class="col-12 mb-1 d-flex justify-content-center ">
-                        <input style="width: 20rem;" type="email" name="email" placeholder="E-mail cím" id="inputEmail" required class="form-control">
-                    </div>
-                    <div class="col-12 mb-1 d-flex justify-content-center ">
-                        <!-- Phone number input field -->
-                        <input style="width: 20rem;" type="tel" name="phone" placeholder="Telefonszám" id="inputPhone" required class="form-control">
-                    </div>
-                    
-                    <div class="col-12 d-flex justify-content-center  mb-1">
-                        <textarea style="width: 20rem;" name="message" placeholder="Üzenet" id="Üzenet" rows="6" required class="form-control "></textarea>
-                    </div>
-                    <div style="margin-left: 4rem;" class="text-center d-grid btn-div">
-                        <button type="submit" style="width:10rem; margin-left: 80px; margin-top: 10px;" class="btn btn-primary rounded-pill p-1">
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-4 d-flex justify-content-center my-1">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="30" x2="120" y1="10" y2="10"></line>
+</svg>
+</div>
+<div class="col-4 d-flex justify-content-center my-1">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="30" x2="120" y1="10" y2="10"></line>
+</svg>
+</div>
+<div class="col-4 d-flex justify-content-center my-1">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="30" x2="120" y1="10" y2="10"></line>
+</svg>
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-4">
+<form action="https://formsubmit.co/pleszpszichologus@gmail.com" class="row d-flex" method="POST">
+<!-- Hidden field for reply-to email -->
+<input name="_replyto" type="hidden" value="email"/>
+<div class="col-12 d-flex justify-content-center mb-1">
+<input class="form-control" id="inputName" name="name" placeholder="Név" required="" style="width: 20rem;" type="text"/>
+</div>
+<div class="col-12 mb-1 d-flex justify-content-center">
+<input class="form-control" id="inputEmail" name="email" placeholder="E-mail cím" required="" style="width: 20rem;" type="email"/>
+</div>
+<div class="col-12 mb-1 d-flex justify-content-center">
+<!-- Phone number input field -->
+<input class="form-control" id="inputPhone" name="phone" placeholder="Telefonszám" required="" style="width: 20rem;" type="tel"/>
+</div>
+<div class="col-12 d-flex justify-content-center mb-1">
+<textarea class="form-control" id="Üzenet" name="message" placeholder="Üzenet" required="" rows="6" style="width: 20rem;"></textarea>
+</div>
+<div class="text-center d-grid btn-div" style="margin-left: 4rem;">
+<button class="btn btn-primary rounded-pill p-1" style="width:10rem; margin-left: 80px; margin-top: 10px;" type="submit">
                             Küldés
                             <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </div>
-                </form>
-                </div>
-
-                <div class="col-4  d-flex justify-content-center">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.4151285104945!2d19.050453576100658!3d47.48182577117857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc4d96c9a1f1%3A0x67ae24fb07f330f9!2zQnVkYXBlc3QsIEJhcnTDs2sgQsOpbGEgw7p0IDE0LCAxMTEx!5e0!3m2!1shu!2shu!4v1727541537776!5m2!1shu!2shu" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
-
-                <div class="col-4  d-flex justify-content-center ">
-                  <ul class="links">
-         
-                    <li class="nav-item"><a style="color:rgba(62, 185, 58);" class="nav-link" href="#bemut">Bemutatkozás</a></li>
-                    <li class="nav-item"><a style="color:rgba(62, 185, 58);" class="nav-link" href="#services-short">Szolgáltatások</a></li>
-                    <li class="nav-item"><a style="color:rgba(62, 185, 58);" class="nav-link" href="#contact">Árak</a></li>
-                    <li class="nav-item"><a style="color:rgba(62, 185, 58);" class="nav-link" href="#contact">Rendelési idő</a></li>
-                    <li class="nav-item"><a href="#contact" style="color:rgba(62, 185, 58);" class="nav-link">Kapcsolat</a>
-                    </li>
-                  </ul>
-                </div>
-                
-         </div>
-</section>
-
-<section id="contact" class="px-5 query-last-section mb-3">
-  <div class="container-fluid">
-    
-        <div class="row d-flex justify-content-center mt-2">
-          <div style="color: rgba(62, 185, 58); font-size: 1.5rem;" class="col-12 d-flex justify-content-center">
+</button>
+</div>
+</form>
+</div>
+<div class="col-4 d-flex justify-content-center">
+<iframe allowfullscreen="" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.4151285104945!2d19.050453576100658!3d47.48182577117857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc4d96c9a1f1%3A0x67ae24fb07f330f9!2zQnVkYXBlc3QsIEJhcnTDs2sgQsOpbGEgw7p0IDE0LCAxMTEx!5e0!3m2!1shu!2shu!4v1727541537776!5m2!1shu!2shu" style="border:0;" width="350"></iframe> </div>
+<div class="col-4 d-flex justify-content-center">
+<ul class="links">
+<li class="nav-item"><a class="nav-link" href="#bemut" style="color:rgba(62, 185, 58);">Bemutatkozás</a></li>
+<li class="nav-item"><a class="nav-link" href="#services-short" style="color:rgba(62, 185, 58);">Szolgáltatások</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact" style="color:rgba(62, 185, 58);">Árak</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact" style="color:rgba(62, 185, 58);">Rendelési idő</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact" style="color:rgba(62, 185, 58);">Kapcsolat</a>
+</li>
+</ul>
+</div>
+</div>
+</div></section>
+<section class="px-5 query-last-section mb-3" id="contact">
+<div class="container-fluid">
+<div class="row d-flex justify-content-center mt-2">
+<div class="col-12 d-flex justify-content-center" style="color: rgba(62, 185, 58); font-size: 1.5rem;">
             Üzenjen most
-          </div> 
-        
-         </div>
-         <div class="row d-flex justify-content-center">
-          <div class="col-12 d-flex justify-content-center my-1">
-            <svg height="20" width="150">
-              <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-              <line x1="30" y1="10" x2="120" y2="10" class="line2" />
-            </svg>
           </div>
-         </div>
-         <div class="row d-flex justify-content-center">
-          <div class="col-12">
-            <form action="https://formsubmit.co/pleszpszichologus@gmail.com" method="POST" class ="row d-flex ">
-        
-              <div class="col-12 d-flex justify-content-center  mb-1">
-                  <input style="width: 20rem;" type="text" name="name" placeholder="Név" id="inputName" required class="form-control">
-              </div>
-              <div class="col-12 mb-1 d-flex justify-content-center ">
-                  <input style="width: 20rem;" type="email" name="email" placeholder="E-mail cím" id="inputEmail" required class="form-control">
-              </div>
-              <!-- Phone number input field -->
-              <div class="col-12 mb-1 d-flex justify-content-center ">
-                  <input style="width: 20rem;" type="tel" name="phone" placeholder="Telefonszám" id="inputPhone" required class="form-control">
-              </div>
-              <input type="hidden" name="_next" value="http://esportmetrics.hu/thanks.html">
-              <div class="col-12 d-flex justify-content-center  mb-1">
-                  <textarea style="width: 20rem;" name="message" placeholder="Üzenet" id="Üzenet" rows="6" required class="form-control"></textarea>
-              </div>
-              <div style="margin-left: 4rem;" class="text-center d-grid btn-div">
-                  <button type="submit" style="width:10rem" class="btn btn-primary rounded-pill p-1">
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center my-1">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="30" x2="120" y1="10" y2="10"></line>
+</svg>
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-12">
+<form action="https://formsubmit.co/pleszpszichologus@gmail.com" class="row d-flex" method="POST">
+<div class="col-12 d-flex justify-content-center mb-1">
+<input class="form-control" id="inputName" name="name" placeholder="Név" required="" style="width: 20rem;" type="text"/>
+</div>
+<div class="col-12 mb-1 d-flex justify-content-center">
+<input class="form-control" id="inputEmail" name="email" placeholder="E-mail cím" required="" style="width: 20rem;" type="email"/>
+</div>
+<!-- Phone number input field -->
+<div class="col-12 mb-1 d-flex justify-content-center">
+<input class="form-control" id="inputPhone" name="phone" placeholder="Telefonszám" required="" style="width: 20rem;" type="tel"/>
+</div>
+<input name="_next" type="hidden" value="http://esportmetrics.hu/thanks.html"/>
+<div class="col-12 d-flex justify-content-center mb-1">
+<textarea class="form-control" id="Üzenet" name="message" placeholder="Üzenet" required="" rows="6" style="width: 20rem;"></textarea>
+</div>
+<div class="text-center d-grid btn-div" style="margin-left: 4rem;">
+<button class="btn btn-primary rounded-pill p-1" style="width:10rem" type="submit">
                       Küldés
                       <i class="fas fa-paper-plane"></i>
-                  </button>
-              </div>
-          </form>
-          </div>
-         </div>
-
-          <div class="row d-flex justify-content-center">
-            <div style="color: rgba(103, 202, 90, 0.8); font-size: 1.5rem;" class="col-12 d-flex justify-content-center mt-3">
+</button>
+</div>
+</form>
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center mt-3" style="color: rgba(103, 202, 90, 0.8); font-size: 1.5rem;">
               Térkép
-           </div> 
-          </div>
-
-         </div>
-         <div class="row d-flex justify-content-center">
-          <div class="col-12 d-flex justify-content-center">
-            <svg height="20" width="150">
-              <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-              <line x1="30" y1="10" x2="120" y2="10" class="line2" />
-            </svg>
-          </div>
-         </div>
-         <div class="row d-flex justify-content-center">
-
-          <div class="col-12  d-flex justify-content-center">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.4151285104945!2d19.050453576100658!3d47.48182577117857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc4d96c9a1f1%3A0x67ae24fb07f330f9!2zQnVkYXBlc3QsIEJhcnTDs2sgQsOpbGEgw7p0IDE0LCAxMTEx!5e0!3m2!1shu!2shu!4v1727541537776!5m2!1shu!2shu" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
-
-         <div class="row d-flex justify-content-center">
-          <div style="color: rgba(103, 202, 90, 0.8); font-size: 1.5rem;" class="col-12 d-flex justify-content-center mt-3">
+           </div>
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="30" x2="120" y1="10" y2="10"></line>
+</svg>
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center">
+<iframe allowfullscreen="" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.4151285104945!2d19.050453576100658!3d47.48182577117857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc4d96c9a1f1%3A0x67ae24fb07f330f9!2zQnVkYXBlc3QsIEJhcnTDs2sgQsOpbGEgw7p0IDE0LCAxMTEx!5e0!3m2!1shu!2shu!4v1727541537776!5m2!1shu!2shu" style="border:0;" width="350"></iframe> </div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center mt-3" style="color: rgba(103, 202, 90, 0.8); font-size: 1.5rem;">
              Linkek
-          </div> 
-          <div class="row d-flex justify-content-center">
-            <div class="col-12 d-flex justify-content-center">
-              <svg height="20" width="150">
-                <line x1="0" y1="0" x2="150" y2="0" class="line1" />
-                <line x1="30" y1="10" x2="120" y2="10" class="line2" />
-              </svg>
-            </div>
-           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-12  d-flex justify-content-center ">
-              <ul class="links">
-                <li class="nav-item"><a style="color:rgba(103, 202, 90, 0.8);" class="nav-link"  href="#bemut-query">Bemutatkozás</a></li>
-                <li  class="nav-item"><a style="color:rgba(103, 202, 90, 0.8);" class="nav-link" href="#query-services-short">Szolgáltatások</a></li>
-                <li class="nav-item"><a style="color:rgba(103, 202, 90, 0.8);"  class="nav-link"  href="#query-contact2">Árak</a></li>
-                <li class="nav-item"><a style="color:rgba(103, 202, 90, 0.8);" class="nav-link" href="#query-contact1">Rendelési idő</a></li>
-                <li class="nav-item"><a style="color:rgba(103, 202, 90, 0.8);" class="nav-link" href="#query-contact3">Kapcsolat</a>
-              </ul>
-            </div>
-           </div>
-       </div>
-</section>
+          </div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center">
+<svg height="20" width="150">
+<line class="line1" x1="0" x2="150" y1="0" y2="0"></line>
+<line class="line2" x1="30" x2="120" y1="10" y2="10"></line>
+</svg>
+</div>
+</div>
+<div class="row d-flex justify-content-center">
+<div class="col-12 d-flex justify-content-center">
+<ul class="links">
+<li class="nav-item"><a class="nav-link" href="#bemut-query" style="color:rgba(103, 202, 90, 0.8);">Bemutatkozás</a></li>
+<li class="nav-item"><a class="nav-link" href="#query-services-short" style="color:rgba(103, 202, 90, 0.8);">Szolgáltatások</a></li>
+<li class="nav-item"><a class="nav-link" href="#query-contact2" style="color:rgba(103, 202, 90, 0.8);">Árak</a></li>
 
+<li class="nav-item"><a class="nav-link" href="#query-contact3" style="color:rgba(103, 202, 90, 0.8);">Kapcsolat</a>
+</li></ul>
+</div>
+</div>
+</div>
+</div></section>
 <section>
-  
-  <footer style="background-color:rgba(103, 202, 90, 0.8);"  class="p-3 text-white text-center postition-relative footer">
-    <div class="container">
-        <a href="#menu" class="postion-absolute bottom-0 end-0 p-1">
-         <i style="color: white;" class="fas fa-arrow-alt-circle-up fa-2x"></i>
-
-        </a>
-        <p class="lead py-1">
+<footer class="p-3 text-white text-center postition-relative footer" style="background-color:rgba(103, 202, 90, 0.8);">
+<div class="container">
+<a class="postion-absolute bottom-0 end-0 p-1" href="#menu">
+<i class="fas fa-arrow-alt-circle-up fa-2x" style="color: white;"></i>
+</a>
+<p class="lead py-1">
             Plesz Barbara
         </p>
-       
-    </div>
+</div>
 </footer>
 </section>
-
 <section>
-  <footer style="background-color:rgba(103, 202, 90, 0.8);"  class="p-3 text-white text-center postition-relative footer-query">
-    <div class="container">
-        <a href="#query-intro" class="postion-absolute bottom-0 end-0 p-1">
-         <i style="color: white;" class="fas fa-arrow-alt-circle-up fa-2x"></i>
-
-        </a>
-        <p class="lead py-1">
+<footer class="p-3 text-white text-center postition-relative footer-query" style="background-color:rgba(103, 202, 90, 0.8);">
+<div class="container">
+<a class="postion-absolute bottom-0 end-0 p-1" href="#query-intro">
+<i class="fas fa-arrow-alt-circle-up fa-2x" style="color: white;"></i>
+</a>
+<p class="lead py-1">
             Plesz Barbara
         </p>
-       
-    </div>
+</div>
 </footer>
 </section>
-
 <script>
   clicked = document.getElementById("butt");
 
@@ -945,11 +795,7 @@ function myFunction() {
   document.getElementById("togg").classList.toggle("addmargin");
 }
 </script>
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-  </body>
+<script crossorigin="anonymous" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
-
